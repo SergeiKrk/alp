@@ -1,0 +1,29 @@
+---
+import { markdownify } from '../lib/utils/textConverter';
+import { Icon } from 'astro-icon';
+const { services } = Astro.props;
+---
+
+<section id="services" class="flex scroll-mt-24 flex-col items-center gap-4 space-y-8">
+  <h2 class="gradientText text-center text-5xl font-extrabold tracking-tight">Наши услуги</h2>
+  <div class="max-w-8xl mx-auto px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
+    <div class="grid grid-cols-1 items-center gap-6 md:grid-cols-2 md:gap-10 lg:grid-cols-3">
+      {
+        services.map((service: any) => (
+          <a href={service.href} class="h-full w-full rounded-3xl bg-white p-5 shadow-lg hover:shadow-2xl">
+            <div class="mb-3 flex items-center gap-x-4">
+              <div class="inline-flex h-[82px] w-[82px] items-center justify-center rounded-full border-4 border-sky-100 bg-gradient-to-br from-sky-700 via-cyan-700 to-teal-700">
+                <Icon class="h-9 w-9 text-sky-100 duration-200 hover:scale-150" name={service.icon} />
+              </div>
+              <div class="max-w-24">
+                <h3 class="text-md block font-semibold text-gray-800 dark:text-white">{service.title}</h3>
+                <p class="text-xs text-gray-600 dark:text-gray-400">{service.price}</p>
+              </div>
+            </div>
+            <p class="text-gray-600 dark:text-gray-400">{service.description}</p>
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</section>

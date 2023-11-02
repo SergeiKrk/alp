@@ -3,12 +3,14 @@ import { getCollection } from 'astro:content';
 import Base from '@layouts/Base.astro';
 import { getEntryBySlug } from 'astro:content';
 import Intro from '@components/Intro.astro';
+import Services from '@components/Services.astro';
 
 const homepage = await getEntryBySlug('homepage', 'index');
-const { intro } = homepage.data;
+const { intro, services } = homepage.data;
 const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <Base>
   <Intro intro={intro} />
+  <Services services={services} />
 </Base>
