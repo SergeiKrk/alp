@@ -1,0 +1,33 @@
+---
+import { markdownify } from '../lib/utils/textConverter';
+import { Image } from 'astro:assets';
+const { intro } = Astro.props;
+const { title, subtitle, content, img1, img2, img3, img4, alt1, alt2, alt3, alt4 } = intro;
+---
+
+<section id="intro" class="flex scroll-mt-24 flex-col items-center gap-4 space-y-8">
+  <div class="py-26 relative mx-auto max-w-screen-xl p-4 px-4 sm:px-6 lg:mt-20 lg:px-8">
+    <div class="relative">
+      <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center lg:gap-8">
+        <div class="ml-auto lg:col-start-2 lg:max-w-2xl">
+          <h2 class="gradientText mb-10 text-5xl font-extrabold tracking-tight" set:html={markdownify(title)} />
+          <p class="max-w-xl text-2xl font-extrabold" set:html={markdownify(subtitle)} />
+          <p class="mt-4 text-lg leading-6 text-gray-500" set:html={markdownify(content)} />
+          <!-- <Badges /> -->
+        </div>
+        <div class="relative-20 relative mt-10 lg:col-start-1 lg:-mx-4 lg:mt-0">
+          <div class="relative space-y-4">
+            <div class="flex items-end justify-center space-x-4 lg:justify-start">
+              <Image src={img1} alt={alt1} width="224" height="168" class="w-32 rounded-3xl shadow-lg md:w-56" />
+              <Image src={img2} alt={alt2} width="256" height="194" class="w-40 rounded-3xl shadow-lg md:w-64" />
+            </div>
+            <div class="ml-12 flex items-start justify-center space-x-4 lg:justify-start">
+              <Image src={img3} alt={alt3} width="160" height="266" class="w-24 rounded-3xl shadow-lg md:w-40" />
+              <Image src={img4} alt={alt4} width="224" height="168" class="w-32 rounded-3xl shadow-lg md:w-56" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

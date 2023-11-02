@@ -1,15 +1,14 @@
 ---
-import { getCollection } from "astro:content";
-import HomePagination from "@components/HomePagination.astro";
-import Base from "@layouts/Base.astro";
-import Posts from "@layouts/Posts.astro";
+import { getCollection } from 'astro:content';
+import Base from '@layouts/Base.astro';
+import { getEntryBySlug } from 'astro:content';
+import Intro from '@components/Intro.astro';
 
-const posts = (await getCollection("blog")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+const homepage = await getEntryBySlug('homepage', 'index');
+const { intro } = homepage.data;
+const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <Base>
-  <Posts posts={posts} />
-  <HomePagination />
+  <Intro intro={intro} />
 </Base>

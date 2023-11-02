@@ -62,6 +62,8 @@
     "vite-plugin-pwa": "0.16.5"
   },
   "dependencies": {
-    "@astrojs/react": "^3.0.4"
+    "@astrojs/react": "^3.0.4",
+    "github-slugger": "^2.0.0",
+    "marked": "^9.1.5"
   }
 }
