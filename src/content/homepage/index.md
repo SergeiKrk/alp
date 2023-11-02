@@ -28,7 +28,7 @@ services:
     href: '/'
   - title: 'Утепление стен снаружи'
     description: 'Наружное утепление стен пеноплексом'
-    icon: 'mdi:animation'
+    icon: 'ri:layout-right-fill'
     price: 'от 825 руб.'
     href: '/'
   - title: 'Герметизация балконов'
