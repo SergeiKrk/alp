@@ -3,12 +3,12 @@ intro:
   title: Высотные работы
   subtitle: Мы квалифицированные специалисты и имеем лицензию для работ на высоте.
   content: 'Выполняем все виды услуг промышленного альпинизма и высотных работ:'
-  img1: /images/ochistka-krysh-ot-sosulek.jpg
-  alt1: покраска фасада
-  img2: /images/Remont-fasadov-1.jpg
-  alt2: Очистка крыш от сосулек
-  img3: /images/pokraska-fasada.jpg
-  alt3: ремонт фасада
+  img2: /images/ochistka-krysh-ot-sosulek.jpg
+  alt2: покраска фасада
+  img3: /images/Remont-fasadov-1.jpg
+  alt3: Очистка крыш от сосулек
+  img1: /images/pokraska-fasada.jpg
+  alt1: ремонт фасада
   img4: /images/germetizaciya-shvov.jpg
   alt4: герметизация швов
 banner:
