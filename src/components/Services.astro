@@ -12,7 +12,11 @@ const { services } = Astro.props;
           <a href={service.href} class="h-full w-full rounded-3xl bg-white p-5 shadow-lg hover:shadow-2xl">
             <div class="mb-3 flex items-center gap-x-4">
               <div class="inline-flex h-[82px] w-[82px] items-center justify-center rounded-full border-4 border-sky-100 bg-gradient-to-br from-sky-700 via-cyan-700 to-teal-700">
-                <Icon class="h-9 w-9 text-sky-100 duration-200 hover:scale-150" name={service.icon} />
+                <Icon
+                  class="h-9 w-9 text-sky-100 duration-200 hover:scale-150"
+                  pack={service.iconpack}
+                  name={service.iconname}
+                />
               </div>
               <div class="max-w-24">
                 <h3 class="text-md block font-semibold text-gray-800 dark:text-white">{service.title}</h3>

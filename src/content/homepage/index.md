@@ -23,62 +23,74 @@ banner:
 services:
   - title: 'Ремонт швов'
     description: 'Ремонт и утепление межпанельных швов'
-    icon: 'ri:layout-right-fill'
+    iconname: animation
+    iconpack: mdi
     price: 'от 250 руб.'
     href: '/'
   - title: 'Утепление стен снаружи'
     description: 'Наружное утепление стен пеноплексом'
-    icon: 'ri:layout-right-fill'
+    iconname: layout-right-fill
+    iconpack: ri
     price: 'от 825 руб.'
     href: '/'
   - title: 'Герметизация балконов'
     description: 'Герметизация окон и балконов'
-    icon: 'mdi:balcony'
+    iconname: balcony
+    iconpack: mdi
     price: 'от 2000 руб.'
     href: '/'
   - title: 'Мойка фасадов зданий'
     description: 'Фасады и витражи. Окна и балконы'
-    icon: 'entypo:bucket'
+    iconname: bucket
+    iconpack: entypo
     price: 'от 70 руб.'
     href: '/'
   - title: 'Уборка снега с крыш'
     description: 'Очистка кровли от снега, наледи и сосулек'
-    icon: 'bi:snow2'
+    iconname: snow2
+    iconpack: bi
     price: 'от 50 руб.'
     href: '/'
   - title: 'Фасадные работы'
     description: 'Покраска, штукатурка, гидрофобизация'
-    icon: 'tabler:building-community'
+    iconname: building-community
+    iconpack: tabler
     price: 'от 70 руб.'
     href: '/'
   - title: 'Кровельные работы'
     description: 'Наплавляемая кровля, скатная кровля'
-    icon: 'map:roofing-contractor'
+    iconname: roofing-contractor
+    iconpack: map
     price: 'от 540 руб.'
     href: '/'
   - title: 'Покраска металлоконструкций'
     description: 'Фермы, АМС, ЛЭП, резервуары и т.п.'
-    icon: 'ri:paint-brush-fill'
+    iconname: paint-brush-fill
+    iconpack: ri
     price: 'от 80 руб.'
     href: '/'
   - title: 'Монтаж металлоконструкций'
     description: 'Фермы, мачты, газходы. Изготовление и...'
-    icon: 'mdi:tower-fire'
+    iconname: tower-fire
+    iconpack: mdi
     price: 'от 18500 руб.'
     href: '/'
   - title: 'Наружная реклама'
     description: 'Монтаж баннеров, рекламных конструкций'
-    icon: 'mdi:billboard'
+    iconname: billboard
+    iconpack: mdi
     price: 'от 150 руб.'
     href: '/'
   - title: 'Такелажные работы'
     description: 'Монтаж оборудования, подъем грузов и...'
-    icon: 'mdi:elevator-up'
+    iconname: elevator-up
+    iconpack: mdi
     price: 'от 85 руб./кг'
     href: '/'
   - title: 'Монтажные высотные работы'
     description: 'Монтаж оборудования на высоте'
-    icon: 'mdi:account-hard-hat'
+    iconname: account-hard-hat
+    iconpack: mdi
     price: 'от 7700 руб.'
     href: '/'
 ---
