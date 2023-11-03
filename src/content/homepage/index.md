@@ -48,7 +48,7 @@ services:
     href: '/'
   - title: 'Фасадные работы'
     description: 'Покраска, штукатурка, гидрофобизация'
-    icon: 'tabler:building-community'
+    icon: 'entypo:bucket'
     price: 'от 70 руб.'
     href: '/'
   - title: 'Кровельные работы'
