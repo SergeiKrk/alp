@@ -13,11 +13,8 @@ const { services } = Astro.props;
             <div class="mb-3 flex items-center gap-x-4">
               <div class="inline-flex h-[82px] w-[82px] items-center justify-center rounded-full border-4 border-sky-100 bg-gradient-to-br from-sky-700 via-cyan-700 to-teal-700">
                 <div class="h-9 w-9 text-sky-100 duration-200 hover:scale-150">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
-                    <path
-                      fill="currentColor"
-                      d="M4 2c-1.11 0-2 .89-2 2v10h2V4h10V2H4m4 4c-1.11 0-2 .89-2 2v10h2V8h10V6H8m4 4c-1.11 0-2 .89-2 2v8c0 1.11.89 2 2 2h8c1.11 0 2-.89 2-2v-8c0-1.11-.89-2-2-2h-8Z"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox={service.box}>
+                    <path fill="currentColor" d={service.icon} />
                   </svg>
                 </div>
               </div>
