@@ -1,0 +1,21 @@
+---
+import SectionBlock from '@layouts/SectionBlock.astro';
+const { features } = Astro.props;
+---
+
+<SectionBlock id="features" title="Наши преимущества">
+  <Fragment slot="lead">Что вы получаете, выбирая нас?</Fragment>
+  <div class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-6 md:grid-cols-2 md:gap-10 lg:grid-cols-3">
+    {
+      features.map((feature: any) => (
+        <div class="text-center">
+          <div class="mt-2 sm:mt-6">
+            <p class="gradientText mt-2 text-4xl font-bold text-blue-500 sm:mt-3 sm:text-6xl">{feature.quantity}</p>
+            <p class="text-sm font-semibold text-gray-800 dark:text-gray-200 sm:text-xl">{feature.title}</p>
+            <p class="text-gray-600 dark:text-gray-400">{feature.description}</p>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</SectionBlock>

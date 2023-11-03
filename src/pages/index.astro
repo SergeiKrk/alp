@@ -5,14 +5,18 @@ import { getEntryBySlug } from 'astro:content';
 import Intro from '@components/Intro.astro';
 import Services from '@components/Services.astro';
 import Testimonials from '@components/Testimonials.astro';
+import Features from '@components/Features.astro';
+import Banners from '@components/Banners.astro';
 
 const homepage = await getEntryBySlug('homepage', 'index');
-const { intro, services, testimonials } = homepage.data;
+const { intro, services, testimonials, features, banners } = homepage.data;
 const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <Base>
   <Intro intro={intro} />
   <Services services={services} />
-  <Testimonials testimonials={testimonials} < Base />
+  <Testimonials testimonials={testimonials} />
+  <Features features={features} />
+  <Banners banners={banners} />
 </Base>

@@ -1,0 +1,23 @@
+---
+import SectionBlock from '@layouts/SectionBlock.astro';
+import { Image } from 'astro:assets';
+const { banners } = Astro.props;
+---
+
+<SectionBlock id="banners">
+  <div class="mt-20 grid max-w-7xl grid-cols-12 items-center gap-x-4 sm:gap-x-6 lg:gap-x-8">
+    {
+      banners.map((banner: any) => (
+        <div class="col-span-4 md:col-span-3">
+          <Image
+            src={banner.img}
+            alt={banner.alt}
+            width="224"
+            height={banner.height}
+            class="w-32 rounded-3xl shadow-lg md:w-56"
+          />
+        </div>
+      ))
+    }
+  </div>
+</SectionBlock>
