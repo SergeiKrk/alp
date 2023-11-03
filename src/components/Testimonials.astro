@@ -1,0 +1,35 @@
+---
+import SectionBlock from '@layouts/SectionBlock.astro';
+import { Image } from 'astro:assets';
+const { testimonials } = Astro.props;
+---
+
+<SectionBlock title={testimonials.title} id={testimonials.id}>
+  <Fragment slot="lead">
+    Вот что клиенты пишут о нас на <a href="https://www.avito.ru/user/6375868aba354c02372283294767b6d9/profile">Авито</a
+    >
+  </Fragment>
+  <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
+    <div class="gap-8 space-y-8 md:columns-2 lg:columns-3">
+      {
+        testimonials.testimoniallist.map((testimonial: any) => (
+          <div class="aspect-auto rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none">
+            <div class="flex gap-4">
+              <Image
+                class="h-12 w-12 rounded-full"
+                src={testimonial.image}
+                width="50"
+                height="50"
+                alt={testimonial.name}
+              />
+              <div>
+                <h6 class="text-lg font-medium text-gray-700 dark:text-white">{testimonial.name}</h6>
+              </div>
+            </div>
+            <p class="mt-8 italic">" {testimonial.testimonial} "</p>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</SectionBlock>
