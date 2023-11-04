@@ -1,10 +1,12 @@
 ---
-import config from "@config/config.json";
-import HeartIcon from "@components/icons/HeartIcon.astro";
+import config from '@config/config.json';
+import TelegramIcon from '@components/icons/TelegramIcon.astro';
+import VkIcon from '@components/icons/VkIcon.astro';
+import WhatsappIcon from '@components/icons/WhatsappIcon.astro';
 const year = new Date().getFullYear();
 ---
 
-<footer class="mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8">
+<!-- <footer class="mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8">
   <div class="border-t border-zinc-100 dark:border-zinc-900">
     <p class="text-center text-xs/relaxed text-zinc-500 dark:text-zinc-400 mt-8 mb-8">
       &copy; {year}. {config.site.title} - EV0. All rights REVERSED
@@ -20,4 +22,41 @@ const year = new Date().getFullYear();
       </span>
     </p>
   </div>
+</footer> -->
+<footer class="relative flex h-48 items-center justify-center bg-gray-200">
+  <div class="text-center">
+    <div class="mt-3">
+      <p class="text-gray-500">{config.site.title}.</p>
+      <p class="text-gray-500">
+        <a class="flex-none font-semibold text-black dark:text-white" href="/" aria-label="Brand">{config.site.brand}</a
+        > &copy; {year}.
+      </p>
+    </div>
+
+    <!-- Social VK -->
+    <div class="mt-3 space-x-2">
+      <a
+        class="inline-flex h-10 w-10 items-center justify-center rounded-full text-center text-gray-500 transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white dark:text-gray-500 dark:hover:bg-gray-800 dark:hover:text-gray-200"
+        href="https://vk.com/height99"
+      >
+        <span class="sr-only">Група в VK</span>
+        <VkIcon />
+      </a>
+      <a
+        class="inline-flex h-10 w-10 items-center justify-center rounded-full text-center text-gray-500 transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white dark:text-gray-500 dark:hover:bg-gray-800 dark:hover:text-gray-200"
+        href="https://t.me/79372758313"
+      >
+        <span class="sr-only">Telegram</span>
+        <TelegramIcon />
+      </a>
+      <a
+        class="inline-flex h-10 w-10 items-center justify-center rounded-full text-center text-gray-500 transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white dark:text-gray-500 dark:hover:bg-gray-800 dark:hover:text-gray-200"
+        href="https://wa.me/79372758313"
+      >
+        <span class="sr-only">Whatsapp</span>
+        <WhatsappIcon />
+      </a>
+    </div>
+  </div>
+  <!-- End Grid -->
 </footer>
