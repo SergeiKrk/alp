@@ -1,0 +1,84 @@
+---
+import { Image } from 'astro:assets';
+import MyForm from './MyForm.astro';
+---
+
+<section class="relative h-full bg-black">
+  <div class="absolute inset-0">
+    <div class="relative h-full overflow-hidden bg-cover bg-center bg-no-repeat blur-sm">
+      <Image
+        class="h-full w-full rounded-b-lg"
+        src="/images/bg.jpeg"
+        width="1320"
+        height="660"
+        alt={`покраска фасада`}
+      />
+      <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-slate-950/[.75] bg-fixed">
+      </div>
+    </div>
+  </div>
+  <div class="relative grid h-full place-items-center lg:grid-cols-2">
+    <div
+      class="mx-6 mb-20 mt-6 flex-col gap-2 self-end sm:gap-4 sm:self-auto sm:justify-self-end lg:flex xl:flex 2xl:flex"
+    >
+      <h1>
+        <div class="text-4xl font-extrabold tracking-tighter text-white">
+          ПРОМЫШЛЕННЫЙ АЛЬПИНИЗМ
+          <br /> Высотные работы в Ульяновске
+        </div>
+      </h1>
+
+      <MyForm form_name="Форма на главной" id_number="home_form" />
+    </div>
+    <div
+      id="astronaut"
+      class="invisible w-2/3 max-w-3xl self-start sm:w-10/12 sm:self-auto sm:justify-self-start md:visible lg:visible xl:visible 2xl:visible"
+    >
+      <Image
+        class="h-full w-full rounded-b-lg"
+        src="/images/alpinist_1200w.png"
+        width="768"
+        height="998"
+        alt="Промышленный альпинист"
+      />
+    </div>
+  </div>
+</section>
+
+<noscript>
+  <style>
+    #splash-bg-fallback {
+      display: block;
+    }
+  </style>
+</noscript>
+
+<style>
+  @keyframes float {
+    0% {
+      transform: translate3d(0, -30px, 0);
+    }
+
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  #astronaut {
+    animation: float linear 2.5s infinite alternate;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #astronaut {
+      @apply animate-none;
+    }
+
+    :global(#starfield) {
+      @apply hidden;
+    }
+
+    #splash-bg-fallback {
+      @apply block;
+    }
+  }
+</style>

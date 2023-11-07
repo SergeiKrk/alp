@@ -1,6 +1,5 @@
 ---
 import Header from '@components/Header.astro';
-import Hero from '@components/Hero.astro';
 import Footer from '@components/Footer.astro';
 import config from '@config/config.json';
 import { createOgImage } from '@utils/createOgImage';
@@ -69,7 +68,6 @@ const ogImage = createOgImage({
   </head>
   <body class="bg-white dark:bg-zinc-900/95">
     <Header />
-    {!blogpost && <Hero />}
     <slot />
     <Footer />
   </body>

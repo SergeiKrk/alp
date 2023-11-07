@@ -1,0 +1,42 @@
+---
+const { form_name, id_number } = Astro.props;
+---
+
+<div>
+  <form
+    class="mt-5 flex flex-col gap-2 sm:gap-3 lg:mt-8 lg:flex-row"
+    name={form_name + ' [Форма #' + id_number + ']'}
+    action="zayavka_otpravlena"
+    method="POST"
+    data-netlify="true"
+  >
+    <div class="">
+      <label for={'hero-name-' + id_number} class="sr-only">{'[' + form_name + '] Имя'}</label>
+      <input
+        name="Имя"
+        type="text"
+        id={'hero-name-' + id_number}
+        name="hero-name"
+        class="focus:border-primary focus:ring-primary block w-full rounded-lg border-gray-200 px-4 py-3 font-semibold shadow-sm focus:z-10 xl:min-w-[10rem]"
+        placeholder="Ваше имя"
+      />
+    </div>
+    <div class="">
+      <label for={'hero-phone-' + id_number} class="sr-only">Телефон</label>
+      <input
+        name="Телефон"
+        type="number"
+        id={'hero-phone-' + id_number}
+        name="hero-phone"
+        class="focus:border-primary focus:ring-primary block w-full rounded-lg border-gray-200 px-4 py-3 font-semibold shadow-sm focus:z-10 xl:min-w-[10rem]"
+        placeholder="Телефон"
+      />
+    </div>
+    <div class="inline-flex">
+      <input type="submit" class="gradientBgNimb" value="Заказать" />
+    </div>
+  </form>
+  <p class="text-md ml-4 mt-4 w-full text-white">
+    Отправляя запрос, Вы соглашаетесь на обработку <a class="gradientTextLight" href="/policy">персональных данных</a>
+  </p>
+</div>
