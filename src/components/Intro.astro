@@ -1,6 +1,6 @@
 ---
 import { markdownify } from '../lib/utils/textConverter';
-import { Image } from 'astro:assets';
+import { Picture } from 'astro:assets';
 const { intro } = Astro.props;
 const { title, subtitle, content, img1, img2, img3, img4, alt1, alt2, alt3, alt4 } = intro;
 ---
@@ -21,12 +21,40 @@ const { title, subtitle, content, img1, img2, img3, img4, alt1, alt2, alt3, alt4
         <div class="relative-20 relative mt-10 lg:col-start-1 lg:-mx-4 lg:mt-0">
           <div class="relative space-y-4">
             <div class="flex items-end justify-center space-x-4 lg:justify-start">
-              <Image src={img1} alt={alt1} width="224" height="168" class="w-32 rounded-3xl shadow-lg md:w-56" />
-              <Image src={img2} alt={alt2} width="256" height="194" class="w-40 rounded-3xl shadow-lg md:w-64" />
+              <Picture
+                src={img1}
+                alt={alt1}
+                formats={['avif', 'webp']}
+                width="224"
+                height="168"
+                class="w-32 rounded-3xl shadow-lg md:w-56"
+              />
+              <Picture
+                src={img2}
+                alt={alt2}
+                formats={['avif', 'webp']}
+                width="256"
+                height="194"
+                class="w-40 rounded-3xl shadow-lg md:w-64"
+              />
             </div>
             <div class="ml-12 flex items-start justify-center space-x-4 lg:justify-start">
-              <Image src={img3} alt={alt3} width="160" height="266" class="w-24 rounded-3xl shadow-lg md:w-40" />
-              <Image src={img4} alt={alt4} width="224" height="168" class="w-32 rounded-3xl shadow-lg md:w-56" />
+              <Picture
+                src={img3}
+                alt={alt3}
+                formats={['avif', 'webp']}
+                width="160"
+                height="266"
+                class="w-24 rounded-3xl shadow-lg md:w-40"
+              />
+              <Picture
+                src={img4}
+                alt={alt4}
+                formats={['avif', 'webp']}
+                width="224"
+                height="168"
+                class="w-32 rounded-3xl shadow-lg md:w-56"
+              />
             </div>
           </div>
         </div>

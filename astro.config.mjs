@@ -12,7 +12,9 @@ import { manifest } from './src/utils/manifest';
 export default defineConfig({
   site: 'http://localhost:4322/',
   image: {
-    remotePatterns: [{ protocol: 'https' }],
+    service: {
+      entrypoint: 'astro/assets/services/noop',
+    },
   },
   markdown: {
     drafts: true,
