@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig, squooshImageService } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import tailwind from '@astrojs/tailwind';
 import Compress from 'astro-compress';
@@ -12,9 +12,7 @@ import { manifest } from './src/utils/manifest';
 export default defineConfig({
   site: 'http://localhost:4322/',
   image: {
-    service: {
-      entrypoint: 'astro/assets/services/noop',
-    },
+    service: squooshImageService(),
   },
   markdown: {
     drafts: true,

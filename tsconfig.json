@@ -1,6 +1,7 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
+    "types": ["astro/client"],
     "strictNullChecks": true,
     "baseUrl": ".",
     "resolveJsonModule": true,

@@ -1,0 +1,23 @@
+---
+import { Image } from 'astro:assets';
+import myImg from './images/banners/case1.jpg';
+const { intro } = Astro.props;
+const { img2 } = intro;
+---
+
+<section id="intro" class="flex scroll-mt-24 flex-col items-center gap-4 space-y-8">
+  <div class="py-26 relative mx-auto max-w-screen-xl p-4 px-4 sm:px-6 lg:mt-20 lg:px-8">
+    <div class="relative">
+      <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center lg:gap-8">
+        <div class="relative-20 relative mt-10 lg:col-start-1 lg:-mx-4 lg:mt-0">
+          <div class="relative space-y-4">
+            <div class="flex items-end justify-center space-x-4 lg:justify-start">
+              <Image src={myImg} alt="djscojnds" width="224" height="168" class="w-32 rounded-3xl shadow-lg md:w-56" />
+              <Image src={img2} alt="djscojnds" width="224" height="168" class="w-32 rounded-3xl shadow-lg md:w-56" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

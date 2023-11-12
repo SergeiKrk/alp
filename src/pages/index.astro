@@ -8,6 +8,7 @@ import Features from '@components/Features.astro';
 import Banners from '@components/Banners.astro';
 import Splash from '@components/Splash.astro';
 import Hero from '@components/Hero.astro';
+import Intr from '@components/Intr.astro';
 
 const homepage = await getEntryBySlug('homepage', 'index');
 const { intro, services, testimonials, features, banners } = homepage.data;
@@ -16,6 +17,7 @@ const { intro, services, testimonials, features, banners } = homepage.data;
 <Base>
   <Splash />
   <Intro intro={intro} />
+  <Intr {intro} />
   <Hero />
   <Services services={services} />
   <Testimonials testimonials={testimonials} />
