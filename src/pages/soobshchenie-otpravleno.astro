@@ -1,23 +1,15 @@
 ---
-import Base from '@layouts/Base.astro';
-import { markdownify } from '../lib/utils/textConverter';
-import { getEntryBySlug } from 'astro:content';
-import { Image } from 'astro:assets';
-
-const entry = await getEntryBySlug('pages', 'soobshchenie-otpravleno');
-const { Content } = await entry.render();
+import BaseStat from '@layouts/BaseStat.astro';
+import Page from '@layouts/Page.astro';
 ---
 
-<Base title={entry.data.title}>
-  <section class="section">
-    <div class="container">
-      <div class="flex h-[40vh] items-center justify-center">
-        <div class="text-center">
-          <Image src="/images/logo.png" class="mb-4 inline" alt="logo" height={120} width={120} />
-          <h1 class="mb-4" set:html={markdownify(entry.data.title)} />
-          <Content />
-        </div>
+<BaseStat meta_title="Сообщение отправлено">
+  <div class="mx-auto max-w-screen-lg px-4 py-12 text-center sm:px-6 lg:px-8 lg:py-64">
+    <Page title="Сообщение отправлено!">
+      <div class="container mx-auto my-12">
+        <h2>Спасибо за Ваше сообщение</h2>
+        <p>Наш специалист скоро его прочитает ;)</p>
       </div>
-    </div>
-  </section>
-</Base>
+    </Page>
+  </div>
+</BaseStat>
