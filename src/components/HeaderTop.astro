@@ -19,14 +19,14 @@ const { main }: { main: NavigationLink[] } = menu;
 
 <header
   id="page-header"
-  class="top-0 z-20 flex w-full items-center justify-between border-b border-transparent py-2 pl-6 pr-8 text-white lg:pl-8"
+  class="fixed top-0 z-20 flex w-full items-center justify-between border-b border-transparent py-2 pl-6 pr-8 text-white backdrop-blur-lg backdrop-opacity-90 lg:pl-8"
 >
   <a class="hover:!text-default flex items-center gap-1" href="/">
     <figure>
       <Image
         src={config.site.logo}
         alt={config.site.title}
-        class="w-16 rounded bg-zinc-950"
+        class="w-16 rounded"
         width={512}
         height={512}
         decoding="async"
