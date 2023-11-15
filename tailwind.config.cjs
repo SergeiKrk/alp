@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,ts,tsx}'],
+  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,ts,tsx}', 'node_modules/preline/dist/*.js'],
   darkMode: 'class',
   theme: {
     extend: {
@@ -84,5 +84,5 @@ module.exports = {
       }),
     },
   },
-  plugins: [require('@tailwindcss/typography'), require('@tailwindcss/aspect-ratio')],
+  plugins: [require('@tailwindcss/typography'), require('@tailwindcss/aspect-ratio'), require('preline/plugin')],
 };

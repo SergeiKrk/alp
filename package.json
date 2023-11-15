@@ -65,6 +65,7 @@
     "@astrojs/react": "^3.0.4",
     "astro-icon": "^0.8.1",
     "github-slugger": "^2.0.0",
-    "marked": "^9.1.5"
+    "marked": "^9.1.5",
+    "preline": "^2.0.0"
   }
 }
