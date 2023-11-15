@@ -64,7 +64,6 @@ const ogImage = createOgImage({
     <meta name="twitter:image" content={ogImage} />
     <meta name="twitter:card" content="summary_large_image" />
     <ViewTransitions />
-    <script is:inline src="./node_modules/preline/dist/preline.js"></script>
   </head>
   <body
     class="bg-default text-default selection:bg-secondary h-full overflow-x-hidden bg-zinc-50 text-base selection:text-white dark:bg-zinc-900/95"
@@ -72,5 +71,7 @@ const ogImage = createOgImage({
     <Header />
     <slot />
     <Footer />
+
+    <script is:inline src="./node_modules/preline/dist/preline.js"></script>
   </body>
 </html>
