@@ -1,4 +1,5 @@
 ---
+import { getCollection } from 'astro:content';
 import Base from '@layouts/Base.astro';
 import { getEntryBySlug } from 'astro:content';
 import Intro from '@components/Intro.astro';
@@ -8,23 +9,24 @@ import Features from '@components/Features.astro';
 import Banners from '@components/Banners.astro';
 import Splash from '@components/Splash.astro';
 import Hero from '@components/Hero.astro';
-import Intr from '@components/Intr.astro';
-import ContactMenu from '@components/ContactMenu.astro';
+import Posts from '@layouts/Posts.astro';
+// import ContactMenu from '@components/ContactMenu.astro';
 
 const homepage = await getEntryBySlug('homepage', 'index');
 const { intro, services, testimonials, features, banners } = homepage.data;
+
+const posts = (await getCollection('uslugi')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <Base>
   <Splash />
   <div class="space-y-24 px-4 py-32 md:px-8">
-    <Intro intro={intro} />
-    <Intr {intro} />
+    <Intro {intro} />
+    <Posts {posts} />
     <Hero />
     <Services services={services} />
     <Testimonials testimonials={testimonials} />
     <Features features={features} />
     <Banners banners={banners} />
-    <ContactMenu />
   </div>
 </Base>

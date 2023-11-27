@@ -15,10 +15,10 @@ export interface Props {
   image?: string;
   noindex?: boolean;
   canonical?: string;
-  blogpost?: boolean;
+  uslugipost?: boolean;
 }
 
-const { title, meta_title, description, noindex, blogpost } = Astro.props;
+const { title, meta_title, description, noindex } = Astro.props;
 
 const ogImage = createOgImage({
   title: meta_title ? meta_title : title ? title : config.site.title,
