@@ -1,7 +1,7 @@
 ---
 title: 'Ремонт и утепление межпанельных швов'
 description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
-descript: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
+descr: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
 h_one: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
 pubDate: 'Jul 08 2023'
 testImage: './blog-placeholder.jpg'
@@ -12,9 +12,9 @@ icon: 'M21 3a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-4V3h4Zm-6 18H3a1 1 0 0 1-1-1V4a1 1 
 box: '0 0 24 24'
 min_price: ' от 250 руб.'
 list_services:
-  - url_id: '1111'
+  - url_id: '/#'
     name: '1111 1111'
-  - url_id: '2222'
+  - url_id: '/#'
     name: '2222 2222'
 ---
 

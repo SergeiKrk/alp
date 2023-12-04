@@ -4,7 +4,7 @@ const uslugi = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    descript: z.string(),
+    descr: z.string(),
     box: z.string(),
     h_one: z.string(),
     min_price: z.string(),

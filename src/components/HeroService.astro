@@ -1,7 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import MyForm from './MyForm.astro';
-const { h_one, min_price, descript, heroImage, icon, box, list_services } = Astro.props;
+const { descr, h_one, min_price, heroImage, icon, box, list_services } = Astro.props;
 ---
 
 <section class="relative h-full bg-black">
@@ -23,9 +23,10 @@ const { h_one, min_price, descript, heroImage, icon, box, list_services } = Astr
         </div>
       </h1>
 
-      <div class="my-12">{descript}</div>
-
-      <MyForm form_name={h_one} id_number="home_form" />
+      <div class="my-12">
+        <div class="text-lg text-white">{descr}</div>
+        <MyForm form_name={h_one} id_number="home_form" />
+      </div>
     </div>
     <div
       class="invisible w-2/3 max-w-3xl self-start sm:w-10/12 sm:self-auto sm:justify-self-start md:visible lg:visible xl:visible 2xl:visible"
@@ -33,17 +34,20 @@ const { h_one, min_price, descript, heroImage, icon, box, list_services } = Astr
       <div class="grid grid-cols-1 gap-4">
         {
           list_services.map((service: any) => (
-            <a href={service.url_id} class="h-full w-full rounded-3xl bg-white p-2 shadow-lg hover:shadow-2xl">
-              <div class="mb-3 flex items-center gap-x-4">
-                <div class="inline-flex h-[82px] w-[82px] items-center justify-center rounded-full border-4 border-sky-100 bg-gradient-to-br from-sky-700 via-cyan-700 to-teal-700">
-                  <div class="h-9 w-9 text-sky-100 duration-200 hover:scale-150">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox={box}>
+            <a
+              href={service.url_id}
+              class="h-full w-full rounded-full border-2 border-sky-100 p-2 shadow-lg hover:scale-105 hover:shadow-2xl lg:ml-12 lg:w-[50%]"
+            >
+              <div class="flex items-center gap-x-4">
+                <div class="inline-flex h-[45px] w-[45px] items-center justify-center rounded-full border-4 border-sky-100 bg-gradient-to-br from-sky-700 via-cyan-700 to-teal-700">
+                  <div class="h-5 w-5 text-sky-100 duration-200 hover:scale-150">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox={box}>
                       <path fill="currentColor" d={icon} />
                     </svg>
                   </div>
                 </div>
                 <div class="max-w-24">
-                  <div class="text-md block font-semibold text-gray-800">{service.name}</div>
+                  <div class="block text-lg font-semibold text-sky-100">{service.name}</div>
                 </div>
               </div>
             </a>
