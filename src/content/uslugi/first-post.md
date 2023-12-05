@@ -12,9 +12,9 @@ icon: 'M21 3a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-4V3h4Zm-6 18H3a1 1 0 0 1-1-1V4a1 1 
 box: '0 0 24 24'
 min_price: ' от 250 руб.'
 list_services:
-  - url_id: '/#'
-    name: '1111 1111'
-  - url_id: '/#'
+  - url_id: '#1111'
+    name: '1111'
+  - url_id: '#'
     name: '2222 2222'
 ---
 
