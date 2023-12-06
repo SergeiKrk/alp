@@ -7,7 +7,6 @@ import Testimonials from '@components/Testimonials.astro';
 import Features from '@components/Features.astro';
 import Banners from '@components/Banners.astro';
 import Splash from '@components/Splash.astro';
-import Hero from '@components/Hero.astro';
 // import ContactMenu from '@components/ContactMenu.astro';
 
 const homepage = await getEntryBySlug('homepage', 'index');
@@ -18,7 +17,6 @@ const { intro, services, testimonials, features, banners } = homepage.data;
   <Splash />
   <div class="space-y-24 px-4 py-32 md:px-8">
     <Intro {intro} />
-    <Hero />
     <Services {services} />
     <Testimonials {testimonials} />
     <Features {features} />
