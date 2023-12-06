@@ -51,7 +51,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .sun {
-  @apply stroke-zinc-500 transition-all;
+  @apply stroke-cyan-900 transition-all;
 }
 .moon {
   @apply stroke-transparent transition-all;
@@ -60,10 +60,10 @@ input#nav-toggle:checked ~ #nav-menu {
   @apply stroke-transparent;
 }
 .dark .moon {
-  @apply stroke-zinc-400;
+  @apply stroke-white;
 }
 #themeToggle:hover .sun {
-  @apply stroke-zinc-800;
+  @apply stroke-yellow-300;
 }
 #themeToggle:hover .moon {
   @apply stroke-transparent;
@@ -72,7 +72,7 @@ input#nav-toggle:checked ~ #nav-menu {
   @apply stroke-transparent;
 }
 .dark #themeToggle:hover .moon {
-  @apply stroke-zinc-200;
+  @apply stroke-yellow-300;
 }
 
 .gradientText {

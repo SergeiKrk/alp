@@ -19,28 +19,30 @@ const { main }: { main: NavigationLink[] } = menu;
 
 <header
   id="page-header"
-  class="fixed top-0 z-20 flex w-full items-center justify-between border-b border-transparent py-2 pl-6 pr-8 text-white backdrop-blur-lg backdrop-opacity-90 lg:pl-8"
+  class="sticky top-0 z-20 flex w-full items-center justify-between border-b border-transparent bg-white/50 py-2 pl-6 pr-8 backdrop-blur-sm ease-in-out lg:pl-8"
 >
   <a class="hover:!text-default flex items-center gap-1" href="/">
     <figure>
       <Image
         src={config.site.logo}
         alt={config.site.title}
-        class="w-16 rounded"
+        class="w-16 rounded-full bg-white"
         width={512}
         height={512}
         decoding="async"
         loading="lazy"
       />
     </figure>
-    <span class="ml-4 hidden sm:block">{config.site.brand}</span>
+    <span class="ml-4 hidden font-bold text-cyan-900/100 dark:text-white/100 sm:block">{config.site.brand}</span>
   </a>
 
   <div class="flex items-center gap-6 lg:order-last">
     <div class="hidden sm:block">
       <ul class="flex items-center gap-6">
         <li>
-          <a class="text-sm" href="tel:+79372758313"> +7 937 275 83 13</a>
+          <a class="text-sm font-bold text-cyan-900/100 dark:text-white/100 md:mr-4" href="tel:+79372758313">
+            +7 937 275 83 13</a
+          >
         </li>
         <li>
           <a
@@ -75,15 +77,15 @@ const { main }: { main: NavigationLink[] } = menu;
     </label>
     <div
       id="nav-menu"
-      class="fixed right-0 top-16 z-10 mt-2 hidden w-full divide-y divide-zinc-100 rounded-md border border-zinc-100 bg-white p-2 shadow-lg dark:border-zinc-900 dark:bg-zinc-800"
+      class="fixed right-0 top-16 z-10 mt-4 hidden w-full divide-y divide-zinc-100 rounded-md border border-zinc-100 bg-white p-2 shadow-lg dark:border-zinc-900 dark:bg-zinc-800"
     >
-      <ul class="py-2 text-center text-lg text-zinc-700 dark:text-zinc-200">
+      <ul class="py-2 text-center text-lg font-bold text-cyan-900/100 dark:text-white/100">
         {
           main?.map((menu) => (
             <li>
               <a
                 href={menu?.url}
-                class="block rounded-lg px-4 py-2 text-xl text-zinc-700 hover:bg-zinc-50 hover:text-zinc-700 dark:text-zinc-400 dark:hover:bg-zinc-200 dark:hover:text-zinc-800"
+                class="block rounded-lg px-4 py-2 text-xl font-bold text-cyan-900/100 hover:bg-zinc-50 hover:text-zinc-700 dark:text-white/100 dark:hover:bg-zinc-200 dark:hover:text-zinc-800"
               >
                 {menu?.name}
               </a>
