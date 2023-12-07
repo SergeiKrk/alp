@@ -15,6 +15,13 @@ list_services:
     name: '1111 1111'
   - url_id: '2222'
     name: '2222 2222'
+works_slider:
+  - img: './blog-placeholder.jpg'
+    alt: '11111'
+  - img: './blog-placeholder.jpg'
+    alt: '22222'
+  - img: './blog-placeholder.jpg'
+    alt: '333333'
 ---
 
 Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.

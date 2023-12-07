@@ -15,6 +15,12 @@ const uslugi = defineCollection({
         name: z.string().optional(),
       })
     ),
+    works_slider: z.array(
+      z.object({
+        img: z.string(),
+        alt: z.string(),
+      })
+    ),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     heroImage: z.string().optional(),

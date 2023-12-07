@@ -62,9 +62,14 @@
     "vite-plugin-pwa": "0.16.5"
   },
   "dependencies": {
-    "@astrojs/react": "^3.0.4",
+    "@astrojs/react": "^3.0.7",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
     "astro-icon": "^0.8.1",
     "github-slugger": "^2.0.0",
-    "marked": "^9.1.5"
+    "marked": "^9.1.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "swiper": "^11.0.5"
   }
 }

@@ -8,13 +8,13 @@ const { banners } = Astro.props;
   <div class="mt-20 grid max-w-7xl grid-cols-12 items-center gap-x-4 sm:gap-x-6 lg:gap-x-8">
     {
       banners.map((banner: any) => (
-        <div class="col-span-4 md:col-span-3">
+        <div class="col-span-6 md:col-span-3">
           <Image
             src={banner.img}
             alt={banner.alt}
             width="224"
             height={banner.height}
-            class="w-32 rounded-3xl shadow-lg md:w-56"
+            class="w-32 cursor-progress rounded-3xl shadow-lg transition duration-300 ease-in-out hover:scale-[2] md:w-56 lg:hover:scale-150"
           />
         </div>
       ))
