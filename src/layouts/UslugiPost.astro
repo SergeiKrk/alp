@@ -8,16 +8,31 @@ import CategoryIcon from '@icons/CategoryIcon.astro';
 import { Image } from 'astro:assets';
 import config from '@config/config.json';
 import { slugify } from '@utils/slug';
+import Banners from '@components/Banners.astro';
 
 type Props = CollectionEntry<'uslugi'>['data'];
 
-const { title, description, pubDate, descr, heroImage, categories, tags, icon, box, min_price, h_one, list_services } =
-  Astro.props;
+const {
+  title,
+  description,
+  pubDate,
+  descr,
+  heroImage,
+  categories,
+  tags,
+  icon,
+  box,
+  min_price,
+  h_one,
+  list_services,
+  banners,
+} = Astro.props;
 ---
 
 <Base meta_title={title} {description} image={heroImage} uslugipost>
   <article>
     <HeroService {heroImage} {descr} {h_one} {icon} {box} {min_price} {list_services} />
+    <Banners {banners} />
     <div class="mb-8 block overflow-hidden rounded-lg">
       {
         heroImage && (

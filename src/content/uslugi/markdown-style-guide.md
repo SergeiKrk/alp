@@ -15,6 +15,19 @@ list_services:
     name: '1111 1111'
   - url_id: '2222'
     name: '2222 2222'
+banners:
+  - alt: монтаж металлоконструкций
+    img: /images/banners/case1.jpg
+    height: '224'
+  - alt: ремонт элеваторов
+    img: /images/banners/case2.jpg
+    height: '312'
+  - alt: высотные работы
+    img: /images/banners/case3.jpg
+    height: '353'
+  - alt: высотные работы
+    img: /images/banners/case4.jpg
+    height: '207'
 ---
 
 Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.

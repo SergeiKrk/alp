@@ -16,6 +16,16 @@ list_services:
     name: '1111'
   - url_id: '#'
     name: '2222 2222'
+banners:
+  - alt: монтаж металлоконструкций
+    img: /images/banners/case1.jpg
+    height: '224'
+  - alt: ремонт элеваторов
+    img: /images/banners/case2.jpg
+    height: '312'
+  - alt: высотные работы
+    img: /images/banners/case3.jpg
+    height: '353'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.

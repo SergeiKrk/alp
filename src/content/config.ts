@@ -15,6 +15,13 @@ const uslugi = defineCollection({
         name: z.string().optional(),
       })
     ),
+    banners: z.array(
+      z.object({
+        img: z.string(),
+        alt: z.string(),
+        height: z.string(),
+      })
+    ),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     heroImage: z.string().optional(),
