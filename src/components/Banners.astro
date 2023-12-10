@@ -5,19 +5,21 @@ const { banners } = Astro.props;
 ---
 
 <SectionBlock id="banners">
-  <div class="my-20 grid max-w-7xl grid-cols-12 items-center gap-x-4 sm:gap-x-6">
-    {
-      banners.map((banner: any) => (
-        <div class="col-span-6 md:col-span-3">
-          <Image
-            src={banner.img}
-            alt={banner.alt}
-            width="224"
-            height={banner.height}
-            class="w-32 cursor-progress rounded-3xl shadow-lg transition duration-300 ease-in-out hover:scale-[2] md:w-56  lg:hover:scale-150"
-          />
-        </div>
-      ))
-    }
+  <div class="container">
+    <div class="row flex flex-wrap items-stretch justify-center">
+      {
+        banners.map((banner: any) => (
+          <div class="mx-2 mb-8 w-32 self-center md:w-56">
+            <Image
+              src={banner.img}
+              alt={banner.alt}
+              width="224"
+              height={banner.height}
+              class="cursor-progress rounded-3xl shadow-lg transition duration-300 ease-in-out hover:scale-[2]  lg:hover:scale-150"
+            />
+          </div>
+        ))
+      }
+    </div>
   </div>
 </SectionBlock>
