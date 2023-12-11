@@ -9,7 +9,7 @@ import { Image } from 'astro:assets';
 import config from '@config/config.json';
 import { slugify } from '@utils/slug';
 import Banners from '@components/Banners.astro';
-import WorkTechnology from '@components/WorkTechnology.astro';
+import ServiceMethod from '@components/ServiceMethod.astro';
 
 type Props = CollectionEntry<'uslugi'>['data'];
 
@@ -27,6 +27,7 @@ const {
   h_one,
   list_services,
   banners,
+  our_service,
 } = Astro.props;
 ---
 
@@ -35,7 +36,7 @@ const {
     <HeroService {heroImage} {descr} {h_one} {icon} {box} {min_price} {list_services} />
     <Banners {banners} />
 
-    <WorkTechnology />
+    <ServiceMethod {our_service} />
     <div class="md:col-10 mb-12 text-center">
       <div class="text-text mt-4 flex flex-wrap items-center justify-center text-zinc-800 dark:text-zinc-200">
         <div class="mx-3 mt-2 flex flex-wrap items-center font-medium">

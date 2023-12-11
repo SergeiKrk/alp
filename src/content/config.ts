@@ -22,6 +22,22 @@ const uslugi = defineCollection({
         height: z.string(),
       })
     ),
+    our_service: z.object({
+      title: z.string().optional(),
+      description: z.string().optional(),
+      list_service: z.array(
+        z.object({
+          title: z.string(),
+          description: z.string().optional(),
+          principle_operation: z.string().optional(),
+          image: z.string().optional(),
+          advantages_list: z.array(z.string()).optional(),
+          disadvantages_list: z.array(z.string()).optional(),
+          link: z.string().optional(),
+        })
+      ),
+    }),
+
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     heroImage: z.string().optional(),

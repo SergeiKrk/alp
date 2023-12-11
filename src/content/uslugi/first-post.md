@@ -32,6 +32,46 @@ banners:
   - alt: монтаж металлоконструкций
     img: /images/banners/case1.jpg
     height: '224'
+our_service:
+  title: Профессиональные методы обработки
+  description: Профессиональные методы обработки обработки
+  list_service:
+    - title: Холодный туман в борьбе с вшами
+      description: Современные технологии помогают в обработке помещений после педикулеза. Одним из передовых методов стал генератор холодного тумана. Как он действует и почему он так популярен?
+      principle_operation: Генератор холодного тумана распыляет инсектицид в виде мельчайших аэрозольных частиц, создавая плотную стену ядовитого тумана. Этот туман опасен для вшей, уничтожая их хитиновый покров и дыхательные пути.
+      image: '/images/banners/case1.jpg'
+    - title: Преимущества и недостатки холодного тумана
+      advantages_list:
+        - Высокая проникающая способность.
+        - Высокая эффективность.
+        - Длительное действие.
+        - Не оставляет химического запаха после обработки.
+        - Отсутствие следов.
+        - Безопасность.
+      disadvantages_list:
+        - Может быть дороже некоторых других методов борьбы с вшами.
+        - Повышает уровень влажности в помещении.
+        - Применение метода требует специалистов с опытом.
+        - Частицы инсектицида могут неравномерно оседать.
+        - Низкая концентрация действующего вещества.
+      image: '/images/banners/case2.jpg'
+    - title: Уничтожение вшей с помощью горячего тумана
+      description: Холодн. туман – метод химической обработки помещений и открытых зон с целью уничтожения вредных насекомых и паразитов.
+      principle_operation: Метод основан на термической обработке. Разогретый дым с препаратом распространяется по всей поверхности, проникая даже в труднодоступные места. Холодн. туман эффективен против различных вредителей, включая вшей и гнид. Облако тумана медленно опускается в течение 2-3 часов, достигая скрытых участков и уничтожая насекомых.
+      image: '/images/banners/case3.jpg'
+      link: '#toTheForm'
+    - title: Преимущества и недостатки горячего тумана
+      advantages_list:
+        - Предотвращает повторное появление вредителей.
+        - Процесс обработки быстр и результативен.
+        - Мебель и интерьер не пострадают.
+        - Избавляет от неприятных запахов.
+        - Высокая проникающая способность препарата.
+      disadvantages_list:
+        - Во время обработки людям и животным необходимо покинуть помещение
+        - Перед обработкой нужно убрать продукты и личные вещи.
+        - После обработки требуется проветривание помещения.
+      image: '/images/banners/case4.jpg'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
