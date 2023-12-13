@@ -18,7 +18,6 @@ const { main }: { main: NavigationLink[] } = menu;
 ---
 
 <header
-  id="page-header"
   class="sticky top-0 z-20 flex w-full items-center justify-between border-b border-transparent bg-white/50 py-2 pl-6 pr-8 backdrop-blur-sm ease-in-out dark:bg-white/10 lg:pl-8"
 >
   <a class="hover:!text-default flex items-center gap-1" href="/">
@@ -107,31 +106,3 @@ const { main }: { main: NavigationLink[] } = menu;
     </ul>
   </div>
 </header>
-
-<script>
-  const header = document.querySelector('#page-header') as HTMLElement;
-  const page = document.documentElement;
-
-  document.addEventListener('scroll', () => {
-    const d = page.clientHeight - page.scrollTop - header.offsetHeight;
-    header.classList.toggle('fixed-header', d < 0);
-  });
-</script>
-
-<noscript>
-  <style>
-    #open-nav-button {
-      display: none;
-    }
-  </style>
-</noscript>
-
-<style>
-  .fixed-header {
-    @apply fixed bottom-auto top-0;
-    @apply text-white;
-  }
-  .modal.is-open {
-    @apply block;
-  }
-</style>

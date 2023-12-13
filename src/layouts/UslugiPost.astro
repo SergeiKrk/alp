@@ -1,15 +1,20 @@
 ---
-import Base from '@layouts/Base.astro';
 import type { CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets';
+import { slugify } from '@utils/slug';
+import { getEntryBySlug } from 'astro:content';
+import Base from '@layouts/Base.astro';
 import FormattedDate from '@components/FormattedDate.astro';
 import HeroService from '@components/HeroService.astro';
 import CalendarIcon from '@icons/CalendarIcon.astro';
 import CategoryIcon from '@icons/CategoryIcon.astro';
-import { Image } from 'astro:assets';
 import config from '@config/config.json';
-import { slugify } from '@utils/slug';
 import Banners from '@components/Banners.astro';
 import ServiceMethod from '@components/ServiceMethod.astro';
+import Features from '@components/Features.astro';
+
+const homepage = await getEntryBySlug('homepage', 'index');
+const { features } = homepage.data;
 
 type Props = CollectionEntry<'uslugi'>['data'];
 
@@ -35,7 +40,9 @@ const {
   <article>
     <HeroService {heroImage} {descr} {h_one} {icon} {box} {min_price} {list_services} />
     <Banners {banners} />
-
+    <div class="my-12 lg:my-24">
+      <Features {features} />
+    </div>
     <ServiceMethod {our_service} />
     <div class="md:col-10 mb-12 text-center">
       <div class="text-text mt-4 flex flex-wrap items-center justify-center text-zinc-800 dark:text-zinc-200">
