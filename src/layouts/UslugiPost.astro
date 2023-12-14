@@ -1,9 +1,7 @@
 ---
-import type { CollectionEntry } from 'astro:content';
-import { Image } from 'astro:assets';
-import { slugify } from '@utils/slug';
-import { getEntryBySlug } from 'astro:content';
 import Base from '@layouts/Base.astro';
+import { Image } from 'astro:assets';
+import { getEntryBySlug } from 'astro:content';
 import FormattedDate from '@components/FormattedDate.astro';
 import HeroService from '@components/HeroService.astro';
 import CalendarIcon from '@icons/CalendarIcon.astro';
@@ -12,6 +10,8 @@ import config from '@config/config.json';
 import Banners from '@components/Banners.astro';
 import ServiceMethod from '@components/ServiceMethod.astro';
 import Features from '@components/Features.astro';
+import type { CollectionEntry } from 'astro:content';
+import { slugify } from '@utils/slug';
 
 const homepage = await getEntryBySlug('homepage', 'index');
 const { features } = homepage.data;
@@ -40,56 +40,27 @@ const {
   <article>
     <HeroService {heroImage} {descr} {h_one} {icon} {box} {min_price} {list_services} />
     <Banners {banners} />
-    <div class="my-12 lg:my-24">
+    <div class="mx-2 my-12 lg:my-24">
       <Features {features} />
     </div>
     <ServiceMethod {our_service} />
-    <div class="md:col-10 mb-12 text-center">
-      <div class="text-text mt-4 flex flex-wrap items-center justify-center text-zinc-800 dark:text-zinc-200">
-        <div class="mx-3 mt-2 flex flex-wrap items-center font-medium">
-          <figure>
-            <Image
-              alt={config.author.name}
-              class="mr-2 h-6 w-6 rounded-full"
-              width={50}
-              height={50}
-              src={config.author.avatar}
-              decoding="async"
-              loading="lazy"
-            />
-          </figure>
-          <span>{config.author.name}</span>
-        </div>
-        <div class="mx-3 mt-2 flex flex-wrap items-center font-medium">
-          <CalendarIcon />
-          <FormattedDate date={pubDate} />
-        </div>
-        <div class="mx-3 mt-2 flex flex-wrap items-center font-medium">
-          <CategoryIcon />
+    <div
+      class="prose prose-lg prose-green mx-2 my-16 flex max-w-7xl flex-col md:prose-lg md:flex-row lg:mx-auto lg:my-24"
+    >
+      <div class="basis-full md:basis-1/4">
+        <div class="sticky top-10">
           {
-            categories?.slice(0, 1).map((category) => (
-              <a href={`/categories/${slugify(category)}`} class="hover:text-primary mr-2 font-medium capitalize">
-                {category}
+            list_services.map((service: any) => (
+              <a href={service.url_id} class="">
+                <div class="block rounded-lg px-4 py-2 text-xl font-bold text-cyan-700/100 hover:bg-zinc-50 hover:text-teal-700 dark:text-white/100 dark:hover:bg-teal-200 dark:hover:text-teal-800">
+                  {service.name}
+                </div>
               </a>
             ))
           }
         </div>
       </div>
-    </div>
-    <div class="prose-md prose prose-green min-w-full md:prose-lg">
-      <slot />
-    </div>
-    <div class="mt-8">
-      {
-        tags?.map((tag) => (
-          <a
-            href={`/tags/${slugify(tag)}`}
-            class="mb-2 mr-2 inline-block rounded-full bg-zinc-200 px-3 py-1 text-sm font-semibold capitalize text-zinc-700 dark:bg-zinc-900 dark:text-zinc-400"
-          >
-            #{tag}
-          </a>
-        ))
-      }
+      <div class="basis-full md:basis-3/4"><slot /></div>
     </div>
   </article>
 </Base>

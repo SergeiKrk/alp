@@ -33,33 +33,33 @@ const { title, description, list_service } = our_service;
                   </div>
                 )}
               </div>
-              <div class="grid basis-full md:basis-2/3 content-center px-12">
+              <div class="grid basis-full md:basis-2/3 content-center lg:px-12 px-4">
                 <div class={`${index % 2 === 0 ? "ml-4" : "mr-4"}`}>
               <h2 class="lg:text-2xl lg:mt-8 mb-6">{item.title}</h2>
-              {item.description && <p class="my-4">{item.description}</p>}
+              {item.description && <p class="my-4 text-md lg:text-lg">{item.description}</p>}
               {item.principle_operation && (
-                <p class="font-bold my-2">Принцип действия:</p>
-                <p>{item.principle_operation}</p>
+                <p class="font-bold my-2 text-md lg:text-lg">Принцип действия:</p>
+                <p class="text-md lg:text-lg">{item.principle_operation}</p>
                 )}
               {item.advantages_list && (
-                <p class="my-3 font-bold">Преимущества метода:</p>
+                <p class="my-3 font-bold text-md lg:text-lg">Преимущества метода:</p>
                 <ul class="text-dark lg:-ml-4">
                   {item.advantages_list &&
                   item.advantages_list.map((list: any) => (
-                    <li class="flex items-center rounded px-4">
-                      + 
+                    <li class="flex items-center rounded px-4 text-md lg:text-lg">
+                      <b class="mr-3">+ </b> 
                       {list}
                     </li>
                   ))}
                 </ul>
               )}
               {item.disadvantages_list && (
-                <p class="my-3 font-bold">Недостатки метода:</p>
+                <p class="my-3 font-bold text-md lg:text-lg">Недостатки метода:</p>
                 <ul class="text-dark lg:-ml-4">
                   {item.disadvantages_list &&
                   item.disadvantages_list.map((negativelist: any) => (
-                    <li class="flex items-center rounded px-4">
-                      - 
+                    <li class="flex items-center rounded px-4 text-md lg:text-lg">
+                      <b class="mr-3">- </b>
                       {negativelist}
                     </li>
                   ))}
@@ -69,18 +69,18 @@ const { title, description, list_service } = our_service;
               {item.link && (
                 <a href={item.link} class="relative flex items-center justify-center h-16 w-24"> 
                   <div class="absolute flex items-center justify-center h-full w-full animate-ping rounded-full gradientBgBtn opacity-75"></div>
-                  <div class="z-10 flex w-full items-center justify-center gap-x-3 rounded-lg border border-transparent gradientBgBtn text-center font-semibold text-white transition hover:gradientBgNimb">Заказать</div> </a>
+                  <div class="z-10 flex w-full items-center justify-center gap-x-3 rounded-lg border border-transparent gradientBgBtn text-center font-semibold text-white transition hover:gradientBgNimb text-md lg:text-lg">Заказать</div> </a>
               )}
               <ul class="mt-6 text-dark lg:-ml-4">
                 {item.list &&
                   item.list.map((list: any) => (
-                    <li class="mb-2 flex items-center rounded px-4">
-                      + 
+                    <li class="mb-2 flex rounded px-4 text-md lg:text-lg">
+                      <b class="mr-3">+</b> 
                       {list}
                     </li>
                   ))}
               </ul>
-              {item.price && <div class="mt-6 text-primary text-lg lg:text-2xl">{item.price}</div>}
+              {item.price && <div class="mt-6 text-primary text-md lg:text-lg lg:text-2xl">{item.price}</div>}
             </div>
               </div>
             </div>
