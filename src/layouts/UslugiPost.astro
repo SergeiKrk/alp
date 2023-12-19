@@ -45,10 +45,10 @@ const {
     </div>
     <ServiceMethod {our_service} />
     <div
-      class="prose prose-lg prose-green mx-2 my-16 flex max-w-7xl flex-col md:prose-lg md:flex-row lg:mx-auto lg:my-24"
+      class="prose prose-lg prose-green mx-2 my-16 flex max-w-7xl flex-col md:prose-lg lg:mx-auto lg:my-24 lg:flex-row"
     >
-      <div class="basis-full md:basis-1/4">
-        <div class="sticky top-10">
+      <div class="basis-full lg:basis-1/5">
+        <div class="sticky top-24 mt-8">
           {
             list_services.map((service: any) => (
               <a href={service.url_id} class="">
@@ -60,7 +60,13 @@ const {
           }
         </div>
       </div>
-      <div class="basis-full md:basis-3/4"><slot /></div>
+      <div class="basis-full lg:basis-3/5"><slot /></div>
+      <div class="basis-full lg:basis-1/5">
+        <div class="sticky top-24 mx-4 mt-8">
+          1111111 1111111 1111111 1111111 1111111 1111111 1111111 1111111 1111111 1111111 1111111 1111111 1111111
+          1111111 1111111 1111111 1111111 1111111 1111111 1111111 1111111 1111111
+        </div>
+      </div>
     </div>
   </article>
 </Base>
