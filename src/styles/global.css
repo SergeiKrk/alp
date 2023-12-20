@@ -105,6 +105,11 @@ input#nav-toggle:checked ~ #nav-menu {
   @apply w-full px-6 py-3 text-white;
 }
 
+.gradientBg {
+  @apply rounded-lg bg-gradient-to-tr from-sky-700 to-teal-600 p-1;
+  @apply w-full px-6 py-3 text-white;
+}
+
 .textPrimary {
   @apply bg-clip-text text-transparent;
   @apply bg-gradient-to-br from-teal-600 to-cyan-800;
