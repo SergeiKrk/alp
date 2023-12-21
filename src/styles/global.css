@@ -92,7 +92,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .gradientBgBtn {
-  @apply mt-8 flex w-full justify-center rounded-full py-2.5 text-sm font-semibold leading-6 text-white shadow-sm;
+  @apply flex justify-center rounded-full py-3 text-sm font-semibold leading-6 text-white shadow-sm;
   @apply bg-gradient-to-br from-sky-700 to-teal-700;
   @apply hover:bg-gradient-to-br hover:from-teal-600 hover:to-sky-600;
   @apply focus:animate-ping focus:bg-gradient-to-br focus:from-sky-300 focus:to-teal-300;
@@ -106,8 +106,12 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .gradientBg {
-  @apply rounded-lg bg-gradient-to-tr from-sky-700 to-teal-600 p-1;
+  @apply rounded-lg bg-gradient-to-tr from-sky-700 to-teal-600 p-1 dark:from-teal-900 dark:to-sky-950;
   @apply w-full px-6 py-3 text-white;
+}
+
+.bgWhiteBlock {
+  @apply bg-gradient-to-br dark:from-sky-700/10 dark:via-cyan-700/10 dark:to-teal-700/10;
 }
 
 .textPrimary {
