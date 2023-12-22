@@ -77,6 +77,23 @@ our_service:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
 
+<div class="max-w-full gradientBg mx-auto rounded-xl p-14 text-center shadow-lg">
+    <div class="flex flex-wrap gap-4 justify-center py-12">
+        <div
+            class="flex flex-col gap-2 h-40 text-white rounded-xl shadow-md p-6 max-w-[350px] bg-gray-200 bg-opacity-30 backdrop-filter backdrop-blur-lg">
+            <div class="font-semibold text-sm">Объем работ < 50 м.</div>
+            <div class="font-semibold text-5xl tracking-tight">от 825 ₽</div>
+            <div class="font-normal">за погонный метр</div>
+        </div>
+        <div
+            class="flex flex-col gap-2 h-40 text-white rounded-xl shadow-md p-6 max-w-[500px] bg-gray-200 bg-opacity-30 backdrop-filter backdrop-blur-lg">
+            <div class="font-semibold text-sm">Объем работ > 50 м.</div>
+            <div class="font-semibold text-5xl tracking-tight">от 550 ₽</div>
+            <div class="font-normal">за погонный метр</div>
+        </div>
+    </div>
+</div>
+
 ## 1111
 
 Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
