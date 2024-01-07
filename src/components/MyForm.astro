@@ -6,6 +6,7 @@ const { form_name, id_number } = Astro.props;
   <form
     class="mt-5 flex flex-col gap-2 sm:gap-3 lg:mt-8 lg:flex-row"
     name={form_name + ' [Форма #' + id_number + ']'}
+    id={id_number}
     action="zayavka_otpravlena"
     method="POST"
     data-netlify="true"

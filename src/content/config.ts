@@ -24,15 +24,20 @@ const uslugi = defineCollection({
     ),
     our_service: z.object({
       title: z.string().optional(),
+      title_id: z.string().optional(),
       description: z.string().optional(),
       list_service: z.array(
         z.object({
           title: z.string(),
+          title_id: z.string().optional(),
           description: z.string().optional(),
           principle_operation: z.string().optional(),
+          principle_operation_title: z.string().optional(),
           image: z.string().optional(),
           advantages_list: z.array(z.string()).optional(),
+          advantages_list_title: z.string().optional(),
           disadvantages_list: z.array(z.string()).optional(),
+          disadvantages_list_title: z.string().optional(),
           link: z.string().optional(),
         })
       ),
@@ -41,7 +46,6 @@ const uslugi = defineCollection({
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     heroImage: z.string().optional(),
-    testImage: z.string().optional(),
     categories: z.array(z.string()).default(['другие']),
     tags: z.array(z.string()).default(['другие']),
   }),

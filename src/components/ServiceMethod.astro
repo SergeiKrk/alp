@@ -2,14 +2,14 @@
 import SectionBlock from '@layouts/SectionBlock.astro';
 import { Image } from 'astro:assets';
 const { our_service } = Astro.props;
-const { title, description, list_service } = our_service;
+const { title, title_id, description, list_service } = our_service;
 ---
 
 <SectionBlock id="tehnologiya">
-  <div class="max-w-full">
-    <div class="mx-auto mt-14 mb-10  lg:mt-24 lg:mb-14 text-center lg:max-w-3xl">
-      <h2 class="mb-10 text-2xl lg:text-5xl font-extrabold text-transparent">{title}</h2>
-      <p class="mt-4">{description}</p>
+  <div id={title_id} class="max-w-full">
+    <div class="mx-auto mb-10 mt-14 text-center lg:mb-14 lg:mt-24 lg:max-w-3xl">
+      <h2 class="mx-4 mb-6 text-3xl font-extrabold text-transparent lg:mb-10 lg:text-5xl">{title}</h2>
+      <p class="font-extrabold lg:mt-4 lg:text-2xl">{description}</p>
     </div>
     {
       list_service.map((item: any, index: number) => (
@@ -18,9 +18,9 @@ const { title, description, list_service } = our_service;
             index % 2 === 0 ? ' bg-gradient-to-br from-sky-700/10 via-cyan-700/10 to-teal-700/10' : ''
           }`}
         >
-          <div class="mx-auto max-w-6xl">
-            <div class="flex flex-col md:flex-row py-12">
-              <div class={`grid basis-full md:basis-1/3 content-center p-2 ${index % 2 === 0 ? 'order-0' : 'order-1'}`}>
+          <div class="mx-auto max-w-6xl" id={item.title_id && item.title_id}>
+            <div class="flex flex-col py-12 md:flex-row">
+              <div class={`grid basis-full content-center p-2 md:basis-1/3 ${index % 2 === 0 ? 'order-0' : 'order-1'}`}>
                 {item.image && (
                   <div class="relative">
                     <Image
@@ -33,55 +33,62 @@ const { title, description, list_service } = our_service;
                   </div>
                 )}
               </div>
-              <div class="grid basis-full md:basis-2/3 content-center lg:px-12 px-4">
-                <div class={`${index % 2 === 0 ? "ml-4" : "mr-4"}`}>
-              <h2 class="lg:text-2xl lg:mt-8 mb-6">{item.title}</h2>
-              {item.description && <p class="my-4 text-md lg:text-lg">{item.description}</p>}
-              {item.principle_operation && (
-                <p class="font-bold my-2 text-md lg:text-lg">Принцип действия:</p>
-                <p class="text-md lg:text-lg">{item.principle_operation}</p>
-                )}
-              {item.advantages_list && (
-                <p class="my-3 font-bold text-md lg:text-lg">Преимущества метода:</p>
-                <ul class="text-dark lg:-ml-4">
-                  {item.advantages_list &&
-                  item.advantages_list.map((list: any) => (
-                    <li class="flex items-center rounded px-4 text-md lg:text-lg">
-                      <b class="mr-3">+ </b> 
-                      {list}
-                    </li>
-                  ))}
-                </ul>
-              )}
-              {item.disadvantages_list && (
-                <p class="my-3 font-bold text-md lg:text-lg">Недостатки метода:</p>
-                <ul class="text-dark lg:-ml-4">
-                  {item.disadvantages_list &&
-                  item.disadvantages_list.map((negativelist: any) => (
-                    <li class="flex items-center rounded px-4 text-md lg:text-lg">
-                      <b class="mr-3">- </b>
-                      {negativelist}
-                    </li>
-                  ))}
-                </ul>
-              )}
+              <div class="grid basis-full content-center px-4 md:basis-2/3 lg:px-12">
+                <div class={`mx-2 ${index % 2 === 0 ? 'md:ml-4' : 'md:mr-4'}`}>
+                  <h2 class="mb-6 mt-8 text-xl lg:text-2xl">{item.title}</h2>
+                  {item.description && <p class="my-4 text-lg">{item.description}</p>}
+                  {item.principle_operation_title && (
+                    <p class="text-md my-2 font-bold lg:text-lg">{item.principle_operation_title}</p>
+                  )}
+                  {item.principle_operation && <p class="text-md lg:text-lg">{item.principle_operation}</p>}
+                  {item.advantages_list_title && (
+                    <p class="text-md my-3 font-bold lg:text-lg">{item.advantages_list_title}</p>
+                  )}
+                  {item.advantages_list && (
+                    <ul class="text-dark lg:-ml-4">
+                      {item.advantages_list &&
+                        item.advantages_list.map((list: any) => (
+                          <li class="text-md flex items-center rounded px-4 lg:text-lg">
+                            <b class="mr-3">+ </b>
+                            {list}
+                          </li>
+                        ))}
+                    </ul>
+                  )}
+                  {item.disadvantages_list_title && (
+                    <p class="text-md my-3 font-bold lg:text-lg">{item.disadvantages_list_title}</p>
+                  )}
+                  {item.disadvantages_list && (
+                    <ul class="text-dark lg:-ml-4">
+                      {item.disadvantages_list &&
+                        item.disadvantages_list.map((negativelist: any) => (
+                          <li class="text-md flex items-center rounded px-4 lg:text-lg">
+                            <b class="mr-3">- </b>
+                            {negativelist}
+                          </li>
+                        ))}
+                    </ul>
+                  )}
 
-              {item.link && (
-                <a href={item.link} class="relative flex items-center justify-center h-16 w-24"> 
-                  <div class="absolute flex items-center justify-center h-full w-full animate-ping rounded-full gradientBgBtn opacity-75"></div>
-                  <div class="z-10 flex w-full items-center justify-center gap-x-3 rounded-lg border border-transparent gradientBgBtn text-center font-semibold text-white transition hover:gradientBgNimb text-md lg:text-lg">Заказать</div> </a>
-              )}
-              <ul class="mt-6 text-dark lg:-ml-4">
-                {item.list &&
-                  item.list.map((list: any) => (
-                    <li class="mb-2 flex rounded px-4 text-md lg:text-lg">
-                      <b class="mr-3">+</b> 
-                      {list}
-                    </li>
-                  ))}
-              </ul>
-              {item.price && <div class="mt-6 text-primary text-md lg:text-lg lg:text-2xl">{item.price}</div>}
-            </div>
+                  {item.link && (
+                    <a href={item.link} class="relative ml-4 mt-10 flex w-32 items-center justify-center">
+                      <div class="gradientBgBtn absolute flex h-[80%] w-24 animate-ping items-center justify-center rounded-full opacity-75" />
+                      <div class="gradientBgBtn hover:gradientBgNimb text-md z-10 flex w-32 items-center justify-center gap-x-3 rounded-lg border border-transparent px-4 text-center font-semibold text-white transition lg:text-lg">
+                        Заказать
+                      </div>{' '}
+                    </a>
+                  )}
+                  <ul class="text-dark mt-6 lg:-ml-4">
+                    {item.list &&
+                      item.list.map((list: any) => (
+                        <li class="text-md mb-2 flex rounded px-4 lg:text-lg">
+                          <b class="mr-3">+</b>
+                          {list}
+                        </li>
+                      ))}
+                  </ul>
+                  {item.price && <div class="text-primary text-md mt-6 lg:text-lg">{item.price}</div>}
+                </div>
               </div>
             </div>
           </div>

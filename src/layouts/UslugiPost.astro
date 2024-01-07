@@ -1,40 +1,23 @@
 ---
 import Base from '@layouts/Base.astro';
-import { Image } from 'astro:assets';
 import { getEntryBySlug } from 'astro:content';
-import FormattedDate from '@components/FormattedDate.astro';
 import HeroService from '@components/HeroService.astro';
-import CalendarIcon from '@icons/CalendarIcon.astro';
-import CategoryIcon from '@icons/CategoryIcon.astro';
-import config from '@config/config.json';
 import Banners from '@components/Banners.astro';
 import ServiceMethod from '@components/ServiceMethod.astro';
 import Features from '@components/Features.astro';
 import type { CollectionEntry } from 'astro:content';
-import { slugify } from '@utils/slug';
 import MyForm from '@components/MyForm.astro';
+
+import { Image } from 'astro:assets';
+import promalpinist from '../../public/images/promalpinist.webp';
 
 const homepage = await getEntryBySlug('homepage', 'index');
 const { features } = homepage.data;
 
 type Props = CollectionEntry<'uslugi'>['data'];
 
-const {
-  title,
-  description,
-  pubDate,
-  descr,
-  heroImage,
-  categories,
-  tags,
-  icon,
-  box,
-  min_price,
-  h_one,
-  list_services,
-  banners,
-  our_service,
-} = Astro.props;
+const { title, description, descr, heroImage, icon, box, min_price, h_one, list_services, banners, our_service } =
+  Astro.props;
 ---
 
 <Base meta_title={title} {description} image={heroImage} uslugipost>
@@ -46,9 +29,19 @@ const {
     </div>
     <ServiceMethod {our_service} />
 
-    <div class="max-w-full bg-gradient-to-br from-sky-700/10 via-cyan-700/10 to-teal-700/10 py-14 text-center">
-      <div class="gradientBg mx-auto max-w-3xl rounded-xl p-14 text-center shadow-lg">
-        <MyForm form_name={h_one} id_number="second_form" />
+    <div
+      id="second_form"
+      class="max-w-full bg-gradient-to-br from-sky-700/10 via-cyan-700/10 to-teal-700/10 py-14 text-center"
+    >
+      <Image
+        class="mx-auto max-w-3xl rounded-full object-contain"
+        alt="промальпинист"
+        width={300}
+        height={300}
+        src={promalpinist}
+      />
+      <div class="gradientBg mx-auto max-w-xl rounded-xl p-14 text-center shadow-lg">
+        <MyForm form_name={h_one} id_number="my_form" />
       </div>
     </div>
 
@@ -59,8 +52,8 @@ const {
         <div class="sticky top-24 mt-8">
           {
             list_services.map((service: any) => (
-              <a href={service.url_id} class="">
-                <div class="block rounded-lg px-4 py-2 text-xl font-bold text-cyan-700/100 hover:bg-zinc-50 hover:text-teal-700 dark:text-white/100 dark:hover:bg-teal-200 dark:hover:text-teal-800">
+              <a href={service.url_id}>
+                <div class="block rounded-lg px-4 py-2 text-lg text-cyan-700/100 hover:bg-zinc-200 hover:text-teal-700 dark:text-white/100 dark:hover:bg-teal-200 dark:hover:text-teal-800 lg:text-sm">
                   {service.name}
                 </div>
               </a>
@@ -68,13 +61,13 @@ const {
           }
         </div>
       </div>
-      <div class="basis-full lg:basis-3/5">
+      <div class="basis-full lg:mx-2 lg:basis-3/5">
         <slot />
       </div>
       <div class="basis-full lg:basis-1/5">
         <div class="bgWhiteBlock sticky top-24 mx-4 rounded-xl px-4 shadow-lg lg:p-6">
           <p class="text-center font-semibold">Хотите заказать консультацию?</p>
-          <a href="#toTheForm" class="relative flex items-center justify-center"
+          <a href="#second_form" class="relative flex items-center justify-center"
             ><div
               class="gradientBgBtn absolute flex h-[80%] w-[65%] animate-ping items-center justify-center rounded-full opacity-75"
             >
