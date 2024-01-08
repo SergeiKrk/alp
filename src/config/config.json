@@ -7,7 +7,7 @@
     "favicon": "/images/logo150grad.png",
     "logo": "/images/logo150grad.png",
     "lang": "ru",
-    "description": "EV0 is a free and open-source serverless uslugi template, built with Astro, Tailwind CSS, and TypeScript.",
+    "description": "PromAlp is a template that is developed based on the free and open source EV0 template, created using Astra, Tailwind CSS and TypeScript.",
     "pageSize": 6
   },
   "features": {
@@ -15,12 +15,11 @@
     "dark_mode": true
   },
   "metadata": {
-    "meta_author": "Oscar Barajas @gndx",
-    "meta_description": "EV0 is a free and open-source serverless uslugi template, built with Astro, Tailwind CSS, and TypeScript."
+    "meta_author": "Sergei Kryukov @sergeikrk",
+    "meta_description": "PromAlp is a template that is developed based on the free and open source EV0 template, created using Astra, Tailwind CSS and TypeScript."
   },
   "author": {
-    "name": "Oscar Barajas Tavares @gndx",
-    "avatar": "https://s3.amazonaws.com/gndx.dev/gndx-astro-avatar.png",
-    "bio": "EV0 is a free and open-source serverless uslugi template, built with Astro, Tailwind CSS, and TypeScript."
+    "name": "Sergei Kryukov @sergeikrk",
+    "bio": "PromAlp is a template that is developed based on the free and open source EV0 template, created using Astra, Tailwind CSS and TypeScript."
   }
 }
