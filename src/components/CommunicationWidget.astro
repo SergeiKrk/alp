@@ -4,15 +4,15 @@ import social from '@config/social';
 const socialItems = social.networks;
 ---
 
-<div class="fixed bottom-12 right-6 z-50 block lg:hidden">
+<div class="fixed bottom-12 right-7 z-50 block lg:hidden">
   <ul class="flex flex-col gap-3">
     <li class="flex items-center justify-center">
       <span class="absolute -z-10 h-[35px] w-[35px] animate-ping rounded-full bg-[#407F7F] opacity-80"></span>
-      <a href="tel:+79161593744" aria-label="телефон для связи">
+      <a href={config.site.phone_org} aria-label="телефон для связи">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="55"
-          height="55"
+          width="50"
+          height="50"
           class="rounded-full bg-white p-1 shadow-xl shadow-green-700/50"
           viewBox="0 0 1200 1200"
           ><path
@@ -23,11 +23,11 @@ const socialItems = social.networks;
       </a>
     </li>
     <li class="flex items-center justify-center">
-      <a href="https://t.me/79161593744" aria-label="telegram для связи">
+      <a href={config.site.whatsapp_org} aria-label="telegram для связи">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="55"
-          height="55"
+          width="50"
+          height="50"
           class="rounded-full bg-white p-1 shadow-xl shadow-blue-500/50"
           viewBox="0 0 24 24"
           ><path
@@ -38,11 +38,11 @@ const socialItems = social.networks;
       </a>
     </li>
     <li class="flex items-center justify-center">
-      <a href="https://wa.me/79161593744" aria-label="whatsapp для связи">
+      <a href={config.site.whatsapp_org} aria-label="whatsapp для связи">
         <svg
           viewBox="0 0 256 256"
-          width="55"
-          height="55"
+          width="50"
+          height="50"
           class="rounded-full bg-white p-1 shadow-xl shadow-green-500/50"
           astro-icon="logos:whatsapp"
           ><path
@@ -56,24 +56,4 @@ const socialItems = social.networks;
       </a>
     </li>
   </ul>
-</div>
-
-<div class="w-3/5 rounded-lg">
-  <h1 class="mb-0 text-lg font-bold text-zinc-900 dark:text-white sm:text-3xl md:text-2xl">
-    {config.author.name}
-  </h1>
-  <p class="mt-1.5 text-sm text-zinc-500 dark:text-zinc-400 md:text-lg">
-    {config.author.bio}
-  </p>
-  <div class="m-auto flex space-x-5 pt-8">
-    {
-      socialItems?.map((item) => (
-        <a href={item.url} target="_blank" rel="noopener noreferrer">
-          <figure>
-            <Fragment set:html={item.svg} />
-          </figure>
-        </a>
-      ))
-    }
-  </div>
 </div>

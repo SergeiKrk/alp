@@ -2,6 +2,9 @@
   "site": {
     "title": "Промышленный альпинизм в Ульяновске",
     "brand": "ПромАльпВысота",
+    "phone_org": "tel:+79372758313",
+    "telegram_org": "https://t.me/79372758313",
+    "whatsapp_org": "https://wa.me/79372758313",
     "base_url": "/",
     "base_path": "/",
     "favicon": "/images/logo150grad.png",
