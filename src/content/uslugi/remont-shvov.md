@@ -6,7 +6,7 @@ h_one: 'Герметизация межпанельных швов'
 pubDate: 'Jul 08 2023'
 heroImage: '/images/remont-mezhpanelnyh-shvov-3.webp'
 categories: ['Фасадные работы']
-tags: ['утепление фасада', 'ремонт фасада', 'шов']
+tags: ['утепление фасада', 'ремонт фасада', 'ремонт швов']
 icon: 'M21 3a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-4V3h4Zm-6 18H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12v18Z'
 box: '0 0 24 24'
 min_price: ' от 550 руб. за погонный метр'
@@ -115,23 +115,23 @@ our_service:
     <div class="flex justify-center pb-12">Минимальный объем работ - 10 000 ₽</div>
 </div>
 
-## Заделка швов без вскрытия (в новостройке) - Цена
+## Заделка швов - Цена
 
 Работы по первичной заделке швов в строящихся многоквартирных домах.
 
 <div class="max-w-full gradientBg mx-auto rounded-xl p-14 text-center shadow-lg">
-    <div class="flex justify-center pt-12 font-bold">Стоимость заделки швов без вскрытия</div>
+    <div class="flex justify-center pt-12 font-bold">Стоимость заделки швов</div>
     <div class="flex flex-wrap gap-4 justify-center py-4">
         <div
             class="flex flex-col gap-2 h-40 text-white rounded-xl shadow-md p-6 max-w-[350px] bg-gray-200 bg-opacity-30 backdrop-filter backdrop-blur-lg">
-            <div class="font-semibold text-sm">Объем работ < 100 м.</div>
-            <div class="font-semibold text-5xl tracking-tight">от 360 ₽</div>
+            <div class="font-semibold text-sm">Объем работ < 30 м.</div>
+            <div class="font-semibold text-5xl tracking-tight">от 1000 ₽</div>
             <div class="font-normal">за погонный метр</div>
         </div>
         <div
             class="flex flex-col gap-2 h-40 text-white rounded-xl shadow-md p-6 max-w-[500px] bg-gray-200 bg-opacity-30 backdrop-filter backdrop-blur-lg">
-            <div class="font-semibold text-sm">Объем работ > 100 м.</div>
-            <div class="font-semibold text-5xl tracking-tight">от 310 ₽</div>
+            <div class="font-semibold text-sm">Объем работ > 30 м.</div>
+            <div class="font-semibold text-5xl tracking-tight">от 850 ₽</div>
             <div class="font-normal">за погонный метр</div>
         </div>
     </div>
@@ -147,14 +147,14 @@ our_service:
     <div class="flex flex-wrap gap-4 justify-center py-4">
         <div
             class="flex flex-col gap-2 h-40 text-white rounded-xl shadow-md p-6 max-w-[350px] bg-gray-200 bg-opacity-30 backdrop-filter backdrop-blur-lg">
-            <div class="font-semibold text-sm">Объем работ < 100 м.</div>
-            <div class="font-semibold text-5xl tracking-tight">от 360 ₽</div>
+            <div class="font-semibold text-sm">Объем работ < 30 м.</div>
+            <div class="font-semibold text-5xl tracking-tight">от 1000 ₽</div>
             <div class="font-normal">за погонный метр</div>
         </div>
         <div
             class="flex flex-col gap-2 h-40 text-white rounded-xl shadow-md p-6 max-w-[500px] bg-gray-200 bg-opacity-30 backdrop-filter backdrop-blur-lg">
-            <div class="font-semibold text-sm">Объем работ > 100 м.</div>
-            <div class="font-semibold text-5xl tracking-tight">от 310 ₽</div>
+            <div class="font-semibold text-sm">Объем работ > 30 м.</div>
+            <div class="font-semibold text-5xl tracking-tight">от 850 ₽</div>
             <div class="font-normal">за погонный метр</div>
         </div>
     </div>
