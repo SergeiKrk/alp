@@ -34,6 +34,17 @@ our_service:
   title_id: uteplenie-sten-snaruzhi
   description: Технологии и материалы
   list_service:
+    - title: Пенополистирол
+      disadvantages_list_title: 'технониколь'
+      image: '/images/uteplenie-fasada-penoplastom-shema.webp'
+      link: '#second_form'
+      price_title: Утепление стен фасадным пенополистиролом - Цена
+      price_volume_1: Объем работ < 30 м.
+      price_1: 2 500
+      price_unit: за кв. метр
+      price_volume_2: Объем работ > 30 м.
+      price_2: 2 000
+      min_volume_price: 15 000
     - title: Фасадный пенопласт
       description: 'Состоит фасадный пенопласт из полистирольных гранул, образуемых единый материал. Он легкий, прочный, долговечный, стойкий к влаге, имеет отличные теплоизоляционные характеристики. Пенопласт может быть использован для утепления как новых зданий, так и старых. Основные этапы работ по его монтажу:'
       disadvantages_list:
@@ -45,11 +56,11 @@ our_service:
       image: '/images/uteplenie-fasada-penoplastom-shema.webp'
       link: '#second_form'
       price_title: Утепление стен фасадным пенопластом - Цена
-      price_volume_1: Объем работ < 10 м.
-      price_1: 3 850
+      price_volume_1: Объем работ < 30 м.
+      price_1: 6 000
       price_unit: за кв. метр
-      price_volume_2: Объем работ > 10 м.
-      price_2: 3 750
+      price_volume_2: Объем работ > 30 м.
+      price_2: 5 500
       min_volume_price: 15 000
 
     - title: Каменная вата
@@ -65,6 +76,13 @@ our_service:
         - 'Финишная отделка.'
       image: '/images/uteplenie-fasada-minvatoj-shema.webp'
       link: '#second_form'
+      price_title: Утепление стен каменной ватой - Цена
+      price_volume_1: Объем работ < 30 м.
+      price_1: 6 000
+      price_unit: за кв. метр
+      price_volume_2: Объем работ > 30 м.
+      price_2: 5 500
+      min_volume_price: 15 000
     - title: Жидкая теплоизоляция
       description: 'Материал современный, используется для утепления стен внутри и снаружи зданий. Он представляет собой смесь полимеров, керамических частиц и других добавок. Жидкая теплоизоляция обладает высокой эффективностью, долговечностью и простотой использования. Она может наноситься на любые поверхности, включая бетон, кирпич, металл и дерево.'
       image: '/images/uteplenie-sten-zhidkoj-teploizolyaciej.webp'
