@@ -39,6 +39,13 @@ const uslugi = defineCollection({
           disadvantages_list: z.array(z.string()).optional(),
           disadvantages_list_title: z.string().optional(),
           link: z.string().optional(),
+          price_title: z.string().optional(),
+          price_volume_1: z.string().optional(),
+          price_1: z.string().optional(),
+          price_unit: z.string().optional(),
+          price_volume_2: z.string().optional(),
+          price_2: z.string().optional(),
+          min_volume_price: z.string().optional(),
         })
       ),
     }),
