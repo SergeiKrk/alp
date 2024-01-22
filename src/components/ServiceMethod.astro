@@ -59,6 +59,8 @@ const { title, title_id, description, list_service } = our_service;
                 <div class={`mx-2 ${index % 2 === 0 ? 'md:ml-4' : 'md:mr-4'}`}>
                   <h2 class="mb-6 mt-8 text-xl lg:text-2xl">{item.title}</h2>
                   {item.description && <p class="my-4 text-lg">{item.description}</p>}
+                  {item.description_pp && <p class="my-4 text-lg">{item.description_pp}</p>}
+                  {item.description_ppp && <p class="my-4 text-lg">{item.description_ppp}</p>}
                   {item.principle_operation_title && (
                     <p class="text-md my-2 font-bold lg:text-lg">{item.principle_operation_title}</p>
                   )}

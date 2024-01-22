@@ -31,6 +31,8 @@ const uslugi = defineCollection({
           title: z.string(),
           title_id: z.string().optional(),
           description: z.string().optional(),
+          description_pp: z.string().optional(),
+          description_ppp: z.string().optional(),
           principle_operation: z.string().optional(),
           principle_operation_title: z.string().optional(),
           image: z.string().optional(),
