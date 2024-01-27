@@ -61,12 +61,16 @@ const { title, title_id, description, list_service } = our_service;
                   {item.description && <p class="my-4 text-lg">{item.description}</p>}
                   {item.description_pp && <p class="my-4 text-lg">{item.description_pp}</p>}
                   {item.description_ppp && <p class="my-4 text-lg">{item.description_ppp}</p>}
+                  {item.info && <p class="my-4 text-lg font-semibold italic">{item.info}</p>}
                   {item.principle_operation_title && (
                     <p class="text-md my-2 font-bold lg:text-lg">{item.principle_operation_title}</p>
                   )}
                   {item.principle_operation && <p class="text-md lg:text-lg">{item.principle_operation}</p>}
                   {item.advantages_list_title && (
                     <p class="text-md my-3 font-bold lg:text-lg">{item.advantages_list_title}</p>
+                  )}
+                  {item.advantages_list_title_slim && (
+                    <p class="text-md my-3  lg:text-lg">{item.advantages_list_title_slim}</p>
                   )}
                   {item.advantages_list && (
                     <ul class="text-dark lg:-ml-4">
@@ -81,6 +85,9 @@ const { title, title_id, description, list_service } = our_service;
                   )}
                   {item.disadvantages_list_title && (
                     <p class="text-md my-3 font-bold lg:text-lg">{item.disadvantages_list_title}</p>
+                  )}
+                  {item.disadvantages_list_title_slim && (
+                    <p class="text-md my-3  lg:text-lg">{item.disadvantages_list_title_slim}</p>
                   )}
                   {item.disadvantages_list && (
                     <ul class="text-dark lg:-ml-4">
