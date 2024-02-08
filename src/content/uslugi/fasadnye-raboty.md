@@ -15,8 +15,16 @@ list_services:
     url_id: '/gidrofobizaciya-fasada'
   - name: 'Монтаж фасадной сетки'
     url_id: '/montazh-fasadnoj-setki'
-  - name: '💳 11111111'
-    url_id: '#утепление-фасада-пенополистиролом'
+  - name: 'Пескоструйная очистка фасада'
+    url_id: '/peskostrujnaya-ochistka-fasada'
+  - name: 'Штукатурка фасада'
+    url_id: '/shtukaturka-fasada'
+  - name: 'Покраска фасада'
+    url_id: '/pokraska-fasada'
+  - name: 'Отделка монолитных поясов'
+    url_id: '/otdelka-monolitnyh-poyasov'
+  - name: '💳 Стоимость ---'
+    url_id: '#цена'
 banners:
   - alt: Штукатурка фасада многоэтажки
     img: /images/shtukaturka-fasada-mnogoehtazhki-1.webp

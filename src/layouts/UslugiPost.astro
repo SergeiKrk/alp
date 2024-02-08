@@ -53,7 +53,11 @@ const { title, description, descr, heroImage, icon, box, min_price, h_one, list_
           {
             list_services.map((service: any) => (
               <a href={service.url_id}>
-                <div class="block rounded-lg px-4 py-2 text-lg text-cyan-700/100 hover:bg-zinc-200 hover:text-teal-700 dark:text-white/100 dark:hover:bg-teal-200 dark:hover:text-teal-800 lg:text-sm">
+                <div
+                  class={`block rounded-lg px-4 py-2 text-lg text-cyan-700/100 hover:bg-zinc-200 hover:text-teal-700 dark:text-white/100 dark:hover:bg-teal-200 dark:hover:text-teal-800 lg:text-sm ${
+                    service.active && 'bg-zinc-300 text-teal-700 dark:bg-teal-900 dark:text-teal-200'
+                  }`}
+                >
                   {service.name}
                 </div>
               </a>
@@ -61,7 +65,7 @@ const { title, description, descr, heroImage, icon, box, min_price, h_one, list_
           }
         </div>
       </div>
-      <div class="basis-full lg:mx-2 lg:basis-3/5">
+      <div class="basis-full lg:mx-2 lg:ml-6 lg:basis-3/5">
         <slot />
       </div>
       <div class="basis-full lg:basis-1/5">

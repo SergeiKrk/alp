@@ -13,6 +13,7 @@ const uslugi = defineCollection({
       z.object({
         url_id: z.string(),
         name: z.string().optional(),
+        active: z.boolean().optional(),
       })
     ),
     banners: z.array(

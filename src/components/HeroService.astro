@@ -15,7 +15,7 @@ const { descr, h_one, min_price, heroImage, icon, box, list_services } = Astro.p
   <div class="relative mx-4 mb-24 flex h-full max-w-full flex-col md:mx-auto md:max-w-6xl md:flex-row">
     <div class="mt-24 basis-full md:basis-2/3 lg:my-64">
       <h1>
-        <div class="text-3xl font-extrabold tracking-tighter text-white md:text-4xl lg:text-6xl">
+        <div class="text-3xl font-extrabold tracking-tighter text-white md:mr-6 md:text-4xl lg:text-6xl">
           {h_one}
         </div>
       </h1>
@@ -31,7 +31,11 @@ const { descr, h_one, min_price, heroImage, icon, box, list_services } = Astro.p
         {
           list_services.map((service: any) => (
             <a href={service.url_id} class="ml-6 p-1">
-              <div class="flex items-center justify-start hover:rounded-full hover:border hover:p-1">
+              <div
+                class={`flex items-center justify-start hover:rounded-full hover:border hover:p-1 ${
+                  service.active && 'rounded-full border p-1'
+                }`}
+              >
                 <div class="rounded-full border-sky-100 bg-gradient-to-br from-sky-700 via-cyan-700 to-teal-700 p-4">
                   <div class="h-4 w-4 text-sky-100">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox={box}>
