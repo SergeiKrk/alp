@@ -32,8 +32,8 @@ const { descr, h_one, min_price, heroImage, icon, box, list_services } = Astro.p
           list_services.map((service: any) => (
             <a href={service.url_id} class="ml-6 p-1">
               <div
-                class={`flex items-center justify-start hover:rounded-full hover:border hover:p-1 ${
-                  service.active && 'rounded-full border p-1'
+                class={`flex items-center justify-start rounded-full transition-all duration-200 hover:rounded-full hover:border hover:p-1 ${
+                  service.active && 'border p-1'
                 }`}
               >
                 <div class="rounded-full border-sky-100 bg-gradient-to-br from-sky-700 via-cyan-700 to-teal-700 p-4">

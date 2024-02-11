@@ -58,6 +58,8 @@ our_service:
 
 Правильный подбор отделочных материалов - важный этап в подготовке к работам. Материалы должны быть качественными и обладать соответствующими теплоизоляционными, морозоустойчивыми, паропроницаемыми и водопоглощающими свойствами.
 
+<div id="ремонт-и-отделка-фасада" class="gradientBg mx-auto my-4 max-w-full rounded-xl p-14 text-center shadow-lg"><h3 class="flex justify-center px-4 pt-6 font-bold lg:text-xl"><div class="text-white">Ремонт и отделка фасада - Цена</div></h3><div class="flex flex-wrap justify-center gap-4 pt-4 pb-10"><div class="flex max-w-[350px] flex-col gap-2 rounded-xl bg-gray-200 bg-opacity-30 p-6 text-white shadow-md backdrop-blur-lg backdrop-filter"><div class="text-sm font-semibold">Минимальный объем работ</div><div class="text-3xl font-semibold tracking-tight">от 10 000 ₽</div><div class="font-normal">за квадратный метр</div></div></div></div>
+
 ### Отделка фасадным камнем
 
 ![Отделка фасадным камнем](/images/fasadnyj-kamen.webp)
