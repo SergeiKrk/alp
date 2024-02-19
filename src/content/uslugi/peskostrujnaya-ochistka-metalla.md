@@ -4,7 +4,7 @@ description: 'Производим пескоструйную очистку м�
 descr: 'Выполняем пескоструйную очистку металлоконструкций на высоте методом промышленного альпинизма под ключ.'
 h_one: 'Пескоструйная очистка металла'
 pubDate: 'Jul 08 2023'
-heroImage: '/images/remont-i-otdelka-fasada-mnogokvartirnogo-doma.webp'
+heroImage: '/images/peskostrujnaya-ochistka-metalla.webp'
 categories: ['Покраска металлоконструкций']
 tags: ['Ремонт металлоконструкций', 'Покраска сооружений']
 icon: 'M20 2h2v20H2v-8h2v6h4v-4h2v4h4v-6h2v6h4V4H10v2H8V2h12zm-8 10h2v2h-2v-2zm-2-2h2v2h-2v-2zm-2 0V8h2v2H8zm-2 2v-2h2v2H6zm0 0H4v2h2v-2zm10-6h2v2h-2V6zm-2 0h-2v2h2V6zm2 4h2v2h-2v-2z'
@@ -18,20 +18,20 @@ list_services:
   - name: '💳 Стоимость пескоструйной очистки металла'
     url_id: '#цена'
 banners:
-  - alt: Штукатурка фасада многоэтажки
-    img: /images/shtukaturka-fasada-mnogoehtazhki-1.webp
+  - alt: Пескоструйная очистка металла
+    img: /images/peskostrujnaya-ochistka-metalla-1.webp
     height: '207'
-  - alt: Гидрофобизация фасада многоэтажного здания
-    img: /images/gidrofobizaciya-fasada-mnogoehtazhnogo-zdaniya-1.webp
+  - alt: Пескоструйная очистка металлоконструкций
+    img: /images/peskostrujnaya-ochistka-metalla-2.webp
     height: '353'
-  - alt: Монтаж фасадной сетки
-    img: /images/montazh-fasadnoj-setki-1.webp
+  - alt: Пескоструйная обработка металла на высоте
+    img: /images/peskostrujnaya-ochistka-metalla-3.webp
     height: '312'
-  - alt: Пескоструйная очистка фасада
-    img: /images/peskostrujnaya-ochistka-fasada-1.webp
+  - alt: Пескоструйная очистка металлоконструкций на высоте
+    img: /images/peskostrujnaya-ochistka-metalla-4.webp
     height: '224'
-  - alt: Отделка монолитных поясов
-    img: /images/otdelka-monolitnyh-poyasov-1.webp
+  - alt: Пескоструйная обработка металлоконструкций
+    img: /images/peskostrujnaya-ochistka-metalla-5.webp
     height: '224'
 our_service:
   title: Услуги по очистке металлоконструкций
@@ -46,13 +46,6 @@ our_service:
         - сталь от ржавчины и старого покрытия.
       image: '/images/remont-fasada-mnogokvartirnogo-doma.webp'
       link: '#second_form'
-      price_title: Пескоструйная очистка металлоконструкций - Цена
-      price_volume_1: Объем работ < 30 м.
-      price_1: '1 200'
-      price_unit: за кв. метр
-      price_volume_2: Объем работ > 30 м.
-      price_2: '1 000'
-      min_volume_price: 15 000
 ---
 
 ## Какие способы зачистки металлоконструкций вы осуществляете?
