@@ -4,7 +4,7 @@ description: 'Покраска металлоконструкций на выс�
 descr: 'Выполняем покраску с частичной зачисткой металлоконструкций на высоте методом промышленного альпинизма под ключ.'
 h_one: 'Покраска металлоконструкций'
 pubDate: 'Jul 08 2023'
-heroImage: '/images/remont-i-otdelka-fasada-mnogokvartirnogo-doma.webp'
+heroImage: '/images/pokraska-metallokonstrukcij.webp'
 categories: ['Покраска металлоконструкций']
 tags: ['Ремонт металлоконструкций', 'Покраска сооружений']
 icon: 'M20 2h2v20H2v-8h2v6h4v-4h2v4h4v-6h2v6h4V4H10v2H8V2h12zm-8 10h2v2h-2v-2zm-2-2h2v2h-2v-2zm-2 0V8h2v2H8zm-2 2v-2h2v2H6zm0 0H4v2h2v-2zm10-6h2v2h-2V6zm-2 0h-2v2h2V6zm2 4h2v2h-2v-2z'
@@ -18,20 +18,20 @@ list_services:
   - name: '💳 Стоимость покраски металлоконструкций'
     url_id: '#цена'
 banners:
-  - alt: Штукатурка фасада многоэтажки
-    img: /images/shtukaturka-fasada-mnogoehtazhki-1.webp
+  - alt: Покраска металлоконструкций
+    img: /images/pokraska-metallokonstrukcij-2.webp
     height: '207'
-  - alt: Гидрофобизация фасада многоэтажного здания
-    img: /images/gidrofobizaciya-fasada-mnogoehtazhnogo-zdaniya-1.webp
+  - alt: Покраска металла
+    img: /images/pokraska-metallokonstrukcij-1.webp
     height: '353'
-  - alt: Монтаж фасадной сетки
-    img: /images/montazh-fasadnoj-setki-1.webp
-    height: '312'
-  - alt: Пескоструйная очистка фасада
-    img: /images/peskostrujnaya-ochistka-fasada-1.webp
-    height: '224'
-  - alt: Отделка монолитных поясов
-    img: /images/otdelka-monolitnyh-poyasov-1.webp
+  - alt: Покраска металлоконструкций на высоте
+    img: /images/pokraska-metallokonstrukcij-4.webp
+    height: '412'
+  - alt: Покраска металлоконструкций альпинистами
+    img: /images/pokraska-metallokonstrukcij-5.webp
+    height: '324'
+  - alt: Покраска металлоконструкций промальпинистами
+    img: /images/pokraska-metallokonstrukcij-3.webp
     height: '224'
 our_service:
   title: Покраска металлоконструкций под ключ
@@ -40,7 +40,7 @@ our_service:
     - title: Частичная зачистка и покраска металлоконструкций
       title_id: зачистка-и-покраска-металлоконструкций
       description: Выполняем работы по окраске металлоконструкций цехов, резервуаров, металлоконструкций на заводах, мачт освещения, вышек сотовой связи, ЛЭП и других металлоконструкций.
-      image: '/images/remont-fasada-mnogokvartirnogo-doma.webp'
+      image: '/images/pokraska-metallokonstrukcij-5.webp'
       link: '#second_form'
 ---
 
