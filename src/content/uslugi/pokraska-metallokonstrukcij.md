@@ -7,7 +7,7 @@ pubDate: 'Jul 08 2023'
 heroImage: '/images/pokraska-metallokonstrukcij.webp'
 categories: ['Покраска металлоконструкций']
 tags: ['Ремонт металлоконструкций', 'Покраска сооружений']
-icon: 'M20 2h2v20H2v-8h2v6h4v-4h2v4h4v-6h2v6h4V4H10v2H8V2h12zm-8 10h2v2h-2v-2zm-2-2h2v2h-2v-2zm-2 0V8h2v2H8zm-2 2v-2h2v2H6zm0 0H4v2h2v-2zm10-6h2v2h-2V6zm-2 0h-2v2h2V6zm2 4h2v2h-2v-2z'
+icon: 'M4 2.997h16a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1Zm2 9h6a1 1 0 0 1 1 1v3h1v6h-4v-6h1v-2H5a1 1 0 0 1-1-1v-2h2v1Zm11.732 1.732L19.5 11.96l1.768 1.768a2.5 2.5 0 1 1-3.536 0Z'
 box: '0 0 24 24'
 min_price: ' от 180 руб. за кв.м.'
 list_services:
