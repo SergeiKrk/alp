@@ -36,7 +36,7 @@ banners:
     img: /images/pokraska-metallokonstrukcij-3.webp
     height: '224'
 our_service:
-  title: 1111111111111111 под ключ
+  title: Монтаж наружной рекламы
   description: Методом промышленного альпинизма
   list_service:
     - title: Монтаж баннеров
