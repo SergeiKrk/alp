@@ -1,6 +1,10 @@
 ---
 import BaseStat from '@layouts/BaseStat.astro';
 import Page from '@layouts/Page.astro';
+import MyForm from '@components/MyForm.astro';
+
+import { Image } from 'astro:assets';
+import promalpinist from '../../public/images/promalpinist.webp';
 ---
 
 <BaseStat meta_title="About">
@@ -18,6 +22,21 @@ import Page from '@layouts/Page.astro';
           Ульяновске. У нас есть все технические возможности и кадровый ресурс, чтобы максимально эффективно решить
           поставленную Вами задачу.
         </p>
+      </div>
+      <div
+        id="second_form"
+        class="max-w-full bg-gradient-to-br from-sky-700/10 via-cyan-700/10 to-teal-700/10 py-14 text-center"
+      >
+        <Image
+          class="mx-auto max-w-3xl rounded-full object-contain"
+          alt="промальпинист"
+          width={300}
+          height={300}
+          src={promalpinist}
+        />
+        <div class="gradientBg mx-auto max-w-xl rounded-xl p-14 text-center shadow-lg">
+          <MyForm form_name="about" id_number="my_form" />
+        </div>
       </div>
     </Page>
   </div>
