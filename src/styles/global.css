@@ -102,7 +102,7 @@ input#nav-toggle:checked ~ #nav-menu {
   @apply rounded-lg bg-gradient-to-tr from-sky-700 to-teal-600 p-1;
   @apply hover:bg-gradient-to-tr hover:from-teal-500 hover:to-sky-500;
   @apply focus:ring-1 focus:ring-teal-500;
-  @apply w-full px-6 py-3 text-white;
+  @apply w-full px-6 py-2 text-white;
 }
 
 .gradientBg {

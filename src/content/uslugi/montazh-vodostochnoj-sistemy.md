@@ -55,11 +55,11 @@ our_service:
       image: '/images/demontazh-bannera-2.webp'
       link: '#second_form'
       price_title: Мойка фасадов - Цена в Ульяновске
-      price_volume_1: Баннеры и баннерные сетки
-      price_1: '70'
+      price_volume_1: Объем работ < 30 м.
+      price_1: 6 000
       price_unit: за кв. метр
-      price_volume_2: Рекламные конструкции
-      price_2: '2000'
+      price_volume_2: Объем работ > 30 м.
+      price_2: 5 500
       min_volume_price: 15 000
 ---
 
