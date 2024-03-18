@@ -1,10 +1,10 @@
 ---
 title: 'Демонтаж кровли в Ульяновске: цена работы за 1 м². Демонтаж крыши под ключ'
-description: 'Цены на услуги ремонта крыши в Ульяновске методом промышленного альпинизма. Цена от 250 руб. за кв.м. Звоните!'
+description: 'Цены на услуги демонтажа старой кровли в Ульяновске методом промышленного альпинизма. Цена от 250 руб. за кв.м. Звоните!'
 descr: 'Выполним демонтаж кровли: оцениваем состояние кровли, производим расчет, производим удаление изоляции, утеплителя, разборка обрешетки, защитных материалов, стяжки.'
 h_one: 'Демонтаж кровли'
 pubDate: 'Jul 08 2023'
-heroImage: '/images/montazh-demontazh-naruzhnoj-reklamy.webp'
+heroImage: '/images/demontazh-krovli.webp'
 categories: ['Кровельные работы']
 tags: ['Ремонт крыши', 'Ремонт кровли']
 icon: 'M8.149 16.062h6.06l-.053 3.575l-6.007 5.406v-8.981zm16.758-1.979L1 35.169L3.52 38l21.485-18.954L46.486 38L49 35.169L25.097 14.083L25 14l-.093.083z'
@@ -30,33 +30,33 @@ list_services:
   - name: 'Монтаж снегозадержателей'
     url_id: '/montazh-snegozaderzhatelej'
 banners:
-  - alt: Монтаж рекламной конструкции
-    img: /images/montazh-reklamnoj-konstrukcii.webp
+  - alt: Демонтаж кровли
+    img: /images/demontazh-krovli-1.webp
     height: '207'
-  - alt: Демонтаж баннера
-    img: /images/demontazh-bannera.webp
+  - alt: Демонтаж скатной кровли
+    img: /images/demontazh-krovli-2.webp
     height: '353'
-  - alt: демонтаж баннера на стену
-    img: /images/montazh-reklamnoj-konstrukcii-2.webp
+  - alt: Демонтаж кровли многоквартирного дома
+    img: /images/demontazh-krovli-3.webp
     height: '412'
-  - alt: монтаж рекламы
-    img: /images/montazh-bannera-na-stenu-2.webp
+  - alt: Демонтаж кровли быстро
+    img: /images/demontazh-krovli-4.webp
     height: '324'
-  - alt: монтаж наружной рекламы
-    img: /images/demontazh-v-trudnodostupnom-meste.webp
+  - alt: Демонтаж шиферной кровли
+    img: /images/demontazh-krovli-5.webp
     height: '224'
 our_service:
-  title: Ремонт крыши многоквартирного и частного дома
-  description: Методом промышленного альпинизма
   list_service:
     - title: Демонтаж кровли
       title_id: демонтаж-кровли
       description: Осуществляем как демонтаж крыши частных коттеджей, так и демонтаж кровли многоквартирных домов, офисных зданий и промышленных сооружений.
-      image: '/images/montazh-reklamnoj-konstrukcii-2.webp'
+      image: '/images/demontazh-skatnoj-krovli.webp'
       link: '#second_form'
 ---
 
 ## Сколько времени занимает демонтаж кровли?
+
+![Демонтаж кровли многоэтажного дома](/images/demontazh-krovli-mnogokvartirnogo-doma.webp)
 
 Срок демонтажных работ зависит от ряда факторов. Это площадь объекта работы, тип покрытия, сложность. Такая работа в частном доме не превышает нескольких дней, а вот крупные строения могут потребовать значительно больше времени - от нескольких недоль до нескольких месяцев.
 
