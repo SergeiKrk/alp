@@ -29,6 +29,8 @@ list_services:
     url_id: '/montazh-greyushchego-kabelya'
   - name: 'Монтаж снегозадержателей'
     url_id: '/montazh-snegozaderzhatelej'
+  - name: '💳 Стоимость покраски кровли'
+    url_id: '#стоимость-покраски-кровли'
 banners:
   - alt: Покраска крыши
     img: /images/pokraska-kryshi-doma-1.webp
@@ -81,4 +83,4 @@ our_service:
 
 Выбирая краску для кровли, не забывайте об особенностях климата, типе кровельного покрытия, и, разумеется, цвете - он должен соответствовать общему дизайну строения.
 
-<div class="gradientBg mx-auto my-4 max-w-full rounded-xl p-14 text-center shadow-lg"><h3 class="flex justify-center px-4 pt-6 font-bold lg:text-xl"><div class="text-white">Покраска крыши - Цена в Ульяновске</div></h3><div class="flex flex-wrap justify-center gap-4 py-4"><div class="flex max-w-[350px] flex-col gap-2 rounded-xl bg-gray-200 bg-opacity-30 p-6 text-white shadow-md backdrop-blur-lg backdrop-filter"><div class="text-sm font-semibold">Объем работ &lt; 100 м²</div><div class="text-3xl font-semibold tracking-tight">от 70 ₽</div><div class="font-normal">за кв. метр</div></div><div class="flex max-w-[500px] flex-col gap-2 rounded-xl bg-gray-200 bg-opacity-30 p-6 text-white shadow-md backdrop-blur-lg backdrop-filter"><div class="text-sm font-semibold">Объем работ &gt; 100 м²</div><div class="text-3xl font-semibold tracking-tight">от 60 ₽</div><div class="font-normal">за кв. метр</div></div></div><div class="flex justify-center pb-6">Минимальный объем работ - 15 000 ₽</div></div>
+<div id="стоимость-покраски-кровли" class="gradientBg mx-auto my-4 max-w-full rounded-xl p-14 text-center shadow-lg"><h3 class="flex justify-center px-4 pt-6 font-bold lg:text-xl"><div class="text-white">Покраска крыши - Цена в Ульяновске</div></h3><div class="flex flex-wrap justify-center gap-4 py-4"><div class="flex max-w-[350px] flex-col gap-2 rounded-xl bg-gray-200 bg-opacity-30 p-6 text-white shadow-md backdrop-blur-lg backdrop-filter"><div class="text-sm font-semibold">Объем работ &lt; 100 м²</div><div class="text-3xl font-semibold tracking-tight">от 70 ₽</div><div class="font-normal">за кв. метр</div></div><div class="flex max-w-[500px] flex-col gap-2 rounded-xl bg-gray-200 bg-opacity-30 p-6 text-white shadow-md backdrop-blur-lg backdrop-filter"><div class="text-sm font-semibold">Объем работ &gt; 100 м²</div><div class="text-3xl font-semibold tracking-tight">от 60 ₽</div><div class="font-normal">за кв. метр</div></div></div><div class="flex justify-center pb-6">Минимальный объем работ - 15 000 ₽</div></div>

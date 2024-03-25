@@ -1,6 +1,6 @@
 ---
 title: 'Монтаж и укладка конька в Ульяновске: Цена работы за м.п.'
-description: 'Установка конька мягкой, металлической и др. видов кровли. Цена от 300 руб. за м². Звоните!'
+description: 'Установка конька мягкой, металлической и др. видов кровли. Цена от 500 руб. за пог.м. Звоните!'
 descr: 'Выполним работы по монтажу конька на любых видах кровли для частных и юридических лиц.'
 h_one: 'Монтаж конька'
 pubDate: 'Jul 08 2023'
@@ -9,7 +9,7 @@ categories: ['Монтаж конька']
 tags: ['Ремонт крыши', 'Ремонт кровли']
 icon: 'M8.149 16.062h6.06l-.053 3.575l-6.007 5.406v-8.981zm16.758-1.979L1 35.169L3.52 38l21.485-18.954L46.486 38L49 35.169L25.097 14.083L25 14l-.093.083z'
 box: '0 0 50 50'
-min_price: ' от 400 руб. за пог.м.'
+min_price: ' от 500 руб. за пог.м.'
 list_services:
   - name: 'Частичный ремонт кровли'
     url_id: '/remont-krovli'
@@ -29,6 +29,8 @@ list_services:
     url_id: '/montazh-greyushchego-kabelya'
   - name: 'Монтаж снегозадержателей'
     url_id: '/montazh-snegozaderzhatelej'
+  - name: '💳 Стоимость монтажа конька'
+    url_id: '#стоимость-монтажа-конька'
 banners:
   - alt: Монтаж конька кровли
     img: /images/montazh-konka-1.webp
@@ -82,4 +84,4 @@ our_service:
 
 ![монтаж конька на крыше дома](/images/montazh-konka-i-primykaniya.webp)
 
-<div class="gradientBg mx-auto my-4 max-w-full rounded-xl p-14 text-center shadow-lg"><h3 class="flex justify-center px-4 pt-6 font-bold lg:text-xl"><div class="text-white">Монтаж конька и примыкания - Цена</div></h3><div class="flex flex-wrap justify-center gap-4 py-4"><div class="flex max-w-[350px] flex-col gap-2 rounded-xl bg-gray-200 bg-opacity-30 p-6 text-white shadow-md backdrop-blur-lg backdrop-filter"><div class="text-sm font-semibold">Объем работ &lt; пог.м.</div><div class="text-3xl font-semibold tracking-tight">от 450 ₽</div><div class="font-normal">за кв. метр</div></div><div class="flex max-w-[500px] flex-col gap-2 rounded-xl bg-gray-200 bg-opacity-30 p-6 text-white shadow-md backdrop-blur-lg backdrop-filter"><div class="text-sm font-semibold">Объем работ &lt; пог.м.</div><div class="text-3xl font-semibold tracking-tight">от 400 ₽</div><div class="font-normal">за кв. метр</div></div></div><div class="flex justify-center pb-6">Минимальный объем работ - 15 000 ₽</div></div>
+<div id="стоимость-монтажа-конька" class="gradientBg mx-auto my-4 max-w-full rounded-xl p-14 text-center shadow-lg"><h3 class="flex justify-center px-4 pt-6 font-bold lg:text-xl"><div class="text-white">Монтаж конька и примыкания - Цена</div></h3><div class="flex flex-wrap justify-center gap-4 py-4"><div class="flex max-w-[350px] flex-col gap-2 rounded-xl bg-gray-200 bg-opacity-30 p-6 text-white shadow-md backdrop-blur-lg backdrop-filter"><div class="text-sm font-semibold">Объем работ &lt; пог.м.</div><div class="text-3xl font-semibold tracking-tight">от 600 ₽</div><div class="font-normal">за кв. метр</div></div><div class="flex max-w-[500px] flex-col gap-2 rounded-xl bg-gray-200 bg-opacity-30 p-6 text-white shadow-md backdrop-blur-lg backdrop-filter"><div class="text-sm font-semibold">Объем работ &lt; пог.м.</div><div class="text-3xl font-semibold tracking-tight">от 500 ₽</div><div class="font-normal">за кв. метр</div></div></div><div class="flex justify-center pb-6">Минимальный объем работ - 15 000 ₽</div></div>
