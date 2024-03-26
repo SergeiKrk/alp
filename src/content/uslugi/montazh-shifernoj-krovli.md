@@ -1,6 +1,6 @@
 ---
 title: 'Ремонт и монтаж шиферной кровли в Ульяновске: Цена за м²'
-description: 'Кровельные работы: капитальный ремонт и монтаж шиферной кровли многоквартирного и частного дома в Ульяновске методом промышленного альпинизма. Цена от 750 руб. за кв.м. Звоните!'
+description: 'Кровельные работы: капитальный ремонт и монтаж шиферной кровли многоквартирного и частного дома в Ульяновске методом промышленного альпинизма. Цена от 700 руб. за кв.м. Звоните!'
 descr: 'Выполним частичный или капитальный ремонт шиферной кровли под ключ.'
 h_one: 'Монтаж шиферной кровли'
 pubDate: 'Jul 08 2023'
@@ -9,7 +9,7 @@ categories: ['Кровельные работы']
 tags: ['Ремонт крыши', 'Ремонт кровли']
 icon: 'M8.149 16.062h6.06l-.053 3.575l-6.007 5.406v-8.981zm16.758-1.979L1 35.169L3.52 38l21.485-18.954L46.486 38L49 35.169L25.097 14.083L25 14l-.093.083z'
 box: '0 0 50 50'
-min_price: ' от 750 руб. за кв.м.'
+min_price: ' от 700 руб. за кв.м.'
 list_services:
   - name: 'Частичный ремонт кровли'
     url_id: '/remont-krovli'
@@ -29,7 +29,7 @@ list_services:
     url_id: '/montazh-greyushchego-kabelya'
   - name: 'Монтаж снегозадержателей'
     url_id: '/montazh-snegozaderzhatelej'
-  - name: '💳 Стоимость монтаж шиферной кровли'
+  - name: '💳 Стоимость монтажа шиферной кровли'
     url_id: '#стоимость-монтаж-шиферной-кровли'
 banners:
   - alt: Монтаж рекламной конструкции
@@ -92,4 +92,4 @@ our_service:
 
 При выборе шифера для кровли специалисты рекомендуют учитывать не только эстетические предпочтения, но и особенности климата, требования к изоляции и сроку службы материала.
 
-<div id="стоимость-монтаж-шиферной-кровли" class="gradientBg mx-auto my-4 max-w-full rounded-xl p-14 text-center shadow-lg"><h3 class="flex justify-center px-4 pt-6 font-bold lg:text-xl"><div class="text-white">Монтаж шиферной кровли - Цена в Ульяновске</div></h3><div class="flex flex-wrap justify-center gap-4 py-4"><div class="flex max-w-[350px] flex-col gap-2 rounded-xl bg-gray-200 bg-opacity-30 p-6 text-white shadow-md backdrop-blur-lg backdrop-filter"><div class="text-sm font-semibold">Объем работ &lt; 200 м²</div><div class="text-3xl font-semibold tracking-tight">от 750 ₽</div><div class="font-normal">за кв. метр</div></div><div class="flex max-w-[500px] flex-col gap-2 rounded-xl bg-gray-200 bg-opacity-30 p-6 text-white shadow-md backdrop-blur-lg backdrop-filter"><div class="text-sm font-semibold">Объем работ &gt; 200 м²</div><div class="text-3xl font-semibold tracking-tight">от 600 ₽</div><div class="font-normal">за кв. метр</div></div></div><div class="flex justify-center pb-6">Минимальный объем работ - 15 000 ₽</div></div>
+<div id="стоимость-монтаж-шиферной-кровли" class="gradientBg mx-auto my-4 max-w-full rounded-xl p-14 text-center shadow-lg"><h3 class="flex justify-center px-4 pt-6 font-bold lg:text-xl"><div class="text-white">Монтаж шиферной кровли - Цена в Ульяновске</div></h3><div class="flex flex-wrap justify-center gap-4 py-4"><div class="flex max-w-[350px] flex-col gap-2 rounded-xl bg-gray-200 bg-opacity-30 p-6 text-white shadow-md backdrop-blur-lg backdrop-filter"><div class="text-sm font-semibold">Объем работ &lt; 200 м²</div><div class="text-3xl font-semibold tracking-tight">от 850 ₽</div><div class="font-normal">за кв. метр</div></div><div class="flex max-w-[500px] flex-col gap-2 rounded-xl bg-gray-200 bg-opacity-30 p-6 text-white shadow-md backdrop-blur-lg backdrop-filter"><div class="text-sm font-semibold">Объем работ &gt; 200 м²</div><div class="text-3xl font-semibold tracking-tight">от 700 ₽</div><div class="font-normal">за кв. метр</div></div></div><div class="flex justify-center pb-6">Минимальный объем работ - 15 000 ₽</div></div>
