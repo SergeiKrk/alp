@@ -55,11 +55,6 @@ our_service:
       description: Осуществим работы по монтажу греющего кабеля на кровлю! Бригада с опытом работы в Ульяновске больше десяти лет!
       image: '/images/demontazh-bannera-2.webp'
       link: '#second_form'
-      price_title: Монтаж греющего кабеля - Цена
-      price_volume_1: Баннеры и баннерные сетки
-      price_1: '200'
-      price_unit: за пог. метр
-      min_volume_price: 10 000
 ---
 
 ## Сложности в установке греющего кабеля
