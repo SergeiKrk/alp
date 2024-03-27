@@ -4,7 +4,7 @@ description: 'Кровельные работы: капитальный ремо
 descr: 'Выполним частичный или капитальный ремонт наплавляемой кровли под ключ.'
 h_one: 'Монтаж наплавляемой кровли'
 pubDate: 'Jul 08 2023'
-heroImage: '/images/montazh-demontazh-naruzhnoj-reklamy.webp'
+heroImage: '/images/montazh-naplavlyaemoj-krovli.webp'
 categories: ['Кровельные работы']
 tags: ['Ремонт крыши', 'Ремонт кровли']
 icon: 'M8.149 16.062h6.06l-.053 3.575l-6.007 5.406v-8.981zm16.758-1.979L1 35.169L3.52 38l21.485-18.954L46.486 38L49 35.169L25.097 14.083L25 14l-.093.083z'
@@ -32,20 +32,20 @@ list_services:
   - name: '💳 Стоимость монтаж наплавляемой кровли'
     url_id: '#стоимость-монтаж-наплавляемой-кровли'
 banners:
-  - alt: Монтаж рекламной конструкции
-    img: /images/montazh-reklamnoj-konstrukcii.webp
+  - alt: Монтаж наплавляемой кровли 1
+    img: /images/montazh-naplavlyaemoj-krovli-1.webp
     height: '207'
-  - alt: Демонтаж баннера
-    img: /images/demontazh-bannera.webp
+  - alt: Монтаж наплавляемой кровли 2
+    img: /images/montazh-naplavlyaemoj-krovli-2.webp
     height: '353'
-  - alt: демонтаж баннера на стену
-    img: /images/montazh-reklamnoj-konstrukcii-2.webp
+  - alt: Монтаж наплавляемой кровли 3
+    img: /images/montazh-naplavlyaemoj-krovli-3.webp
     height: '412'
-  - alt: монтаж рекламы
-    img: /images/montazh-bannera-na-stenu-2.webp
+  - alt: Монтаж наплавляемой кровли 4
+    img: /images/montazh-naplavlyaemoj-krovli-4.webp
     height: '324'
-  - alt: монтаж наружной рекламы
-    img: /images/demontazh-v-trudnodostupnom-meste.webp
+  - alt: Монтаж наплавляемой кровли 4
+    img: /images/montazh-naplavlyaemoj-krovli-5.webp
     height: '224'
 our_service:
   title: Монтаж и ремонт мягкой кровли
@@ -54,7 +54,7 @@ our_service:
     - title: Монтаж наплавляемой кровли
       title_id: монтаж-наплавляемой-кровли
       description: Осуществляем как монтаж крыши частных коттеджей, так и устройство кровли многоквартирных домов, офисных зданий и промышленных сооружений.
-      image: '/images/demontazh-bannera-2.webp'
+      image: '/images/montazh-naplavlyaemoj.webp'
       link: '#second_form'
 ---
 
