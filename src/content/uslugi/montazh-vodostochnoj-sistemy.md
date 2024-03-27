@@ -1,15 +1,15 @@
 ---
 title: 'Монтаж водосточной системы в Ульяновске: Цена работы за погонный.м.'
-description: 'Установка металлических и пластиковых водостоков на крышу под ключ. Цена от 450 руб. за м. Звоните!'
+description: 'Установка металлических и пластиковых водостоков на крышу под ключ. Цена от 900 руб. за м. Звоните!'
 descr: 'Выполним работы по монтажу кровельных водостоков для частных и юридических лиц.'
 h_one: 'Монтаж водосточной системы'
 pubDate: 'Jul 08 2023'
-heroImage: '/images/montazh-demontazh-naruzhnoj-reklamy.webp'
+heroImage: '/images/montazh-vodostochnoj-sistemy.webp'
 categories: ['Монтаж водосточной системы']
 tags: ['Монтаж водостока', 'Ремонт кровли']
 icon: 'M8.149 16.062h6.06l-.053 3.575l-6.007 5.406v-8.981zm16.758-1.979L1 35.169L3.52 38l21.485-18.954L46.486 38L49 35.169L25.097 14.083L25 14l-.093.083z'
 box: '0 0 50 50'
-min_price: ' от 450 руб. за кв.м.'
+min_price: ' от 900 руб. за кв.м.'
 list_services:
   - name: 'Частичный ремонт кровли'
     url_id: '/remont-krovli'
@@ -32,20 +32,20 @@ list_services:
   - name: '💳 Стоимость монтажа водостока'
     url_id: '#стоимость-монтажа-водостока'
 banners:
-  - alt: Монтаж рекламной конструкции
-    img: /images/montazh-reklamnoj-konstrukcii.webp
+  - alt: Монтаж водостока многоэтажки
+    img: /images/montazh-vodostochnoj-sistemy-1.webp
     height: '207'
-  - alt: Демонтаж баннера
-    img: /images/demontazh-bannera.webp
+  - alt: Монтаж водосточной трубы
+    img: /images/montazh-vodostochnoj-sistemy-2.webp
     height: '353'
-  - alt: демонтаж баннера на стену
-    img: /images/montazh-reklamnoj-konstrukcii-2.webp
+  - alt: Монтаж водосточной трубы многоэтажного здания
+    img: /images/montazh-vodostochnoj-sistemy-3.webp
     height: '412'
-  - alt: монтаж рекламы
-    img: /images/montazh-bannera-na-stenu-2.webp
+  - alt: Монтаж водосточной системы частного дома
+    img: /images/montazh-vodostochnoj-sistemy-4.webp
     height: '324'
-  - alt: монтаж наружной рекламы
-    img: /images/demontazh-v-trudnodostupnom-meste.webp
+  - alt: монтаж водосточных желобов
+    img: /images/montazh-vodostochnoj-sistemy-5.webp
     height: '224'
 our_service:
   title: Монтаж водосточных труб и желобов
@@ -54,7 +54,7 @@ our_service:
     - title: Монтаж водосточной системы
       title_id: монтаж-водосточной-системы
       description: Осуществляем монтаж водосточной системы как на крыши частных коттеджей, так и на кровли многоквартирных домов, офисных зданий и промышленных сооружений.
-      image: '/images/demontazh-bannera-2.webp'
+      image: '/images/montazh-vodostochnoj-truby.webp'
       link: '#second_form'
 ---
 
@@ -104,4 +104,4 @@ our_service:
 
 Комплектация системы водостока бывает разной, это зависит от особенностей конкретной крыши и дизайна строения. Устанавливая водосточную систему нужно учитывать рекомендации изготовителя и придерживаться строительных стандартов. Лучше всего эту работу доверить опытным профессионалам.
 
-<div id="стоимость-монтажа-водостока" class="gradientBg mx-auto my-4 max-w-full rounded-xl p-14 text-center shadow-lg"><h3 class="flex justify-center px-4 pt-6 font-bold lg:text-xl"><div class="text-white">Монтаж водосточной системы - Цена</div></h3><div class="flex flex-wrap justify-center gap-4 py-4"><div class="flex max-w-[350px] flex-col gap-2 rounded-xl bg-gray-200 bg-opacity-30 p-6 text-white shadow-md backdrop-blur-lg backdrop-filter"><div class="text-sm font-semibold">Вертикальные трубы</div><div class="text-3xl font-semibold tracking-tight">от 450 ₽</div><div class="font-normal">за пог. метр</div></div><div class="flex max-w-[500px] flex-col gap-2 rounded-xl bg-gray-200 bg-opacity-30 p-6 text-white shadow-md backdrop-blur-lg backdrop-filter"><div class="text-sm font-semibold">Горизонтальные желоба</div><div class="text-3xl font-semibold tracking-tight">от 600 ₽</div><div class="font-normal">за пог. метр</div></div></div><div class="flex justify-center pb-6">Минимальный объем работ - 15 000 ₽</div></div>
+<div id="стоимость-монтажа-водостока" class="gradientBg mx-auto my-4 max-w-full rounded-xl p-14 text-center shadow-lg"><h3 class="flex justify-center px-4 pt-6 font-bold lg:text-xl"><div class="text-white">Монтаж водосточной системы - Цена</div></h3><div class="flex flex-wrap justify-center gap-4 py-4"><div class="flex max-w-[350px] flex-col gap-2 rounded-xl bg-gray-200 bg-opacity-30 p-6 text-white shadow-md backdrop-blur-lg backdrop-filter"><div class="text-sm font-semibold">Вертикальные трубы</div><div class="text-3xl font-semibold tracking-tight">от 900 ₽</div><div class="font-normal">за пог. метр</div></div><div class="flex max-w-[500px] flex-col gap-2 rounded-xl bg-gray-200 bg-opacity-30 p-6 text-white shadow-md backdrop-blur-lg backdrop-filter"><div class="text-sm font-semibold">Горизонтальные желоба</div><div class="text-3xl font-semibold tracking-tight">от 1 500 ₽</div><div class="font-normal">за пог. метр</div></div></div><div class="flex justify-center pb-6">Минимальный объем работ - 15 000 ₽</div></div>
