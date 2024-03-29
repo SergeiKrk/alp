@@ -4,9 +4,9 @@ description: 'Эффективный монтаж системы обогрев�
 descr: 'Выполним монтаж обогрева кровли и водосточной системы под ключ.'
 h_one: 'Монтаж греющего кабеля'
 pubDate: 'Jul 08 2023'
-heroImage: '/images/montazh-demontazh-naruzhnoj-reklamy.webp'
+heroImage: '/images/montazh-greyushchego-kabelya.webp'
 categories: ['Кровельные работы']
-tags: ['Ремонт крыши', 'Ремонт кровли']
+tags: ['Монтаж греющего кабеля', 'Монтаж кровельного греющего кабеля']
 icon: 'M8.149 16.062h6.06l-.053 3.575l-6.007 5.406v-8.981zm16.758-1.979L1 35.169L3.52 38l21.485-18.954L46.486 38L49 35.169L25.097 14.083L25 14l-.093.083z'
 box: '0 0 50 50'
 min_price: ' от 600 руб. за кв.м.'
@@ -32,20 +32,20 @@ list_services:
   - name: '💳 Стоимость монтажа греющего кабеля'
     url_id: '#монтаж-греющего-кабеля'
 banners:
-  - alt: Монтаж рекламной конструкции
-    img: /images/montazh-reklamnoj-konstrukcii.webp
+  - alt: монтаж греющего кабеля на кровле
+    img: /images/montazh-greyushchego-kabelya-na-krovle-1.webp
     height: '207'
-  - alt: Демонтаж баннера
-    img: /images/demontazh-bannera.webp
+  - alt: монтаж греющего кабеля на крыше
+    img: /images/montazh-greyushchego-kabelya-na-krovle-2.webp
     height: '353'
-  - alt: демонтаж баннера на стену
-    img: /images/montazh-reklamnoj-konstrukcii-2.webp
+  - alt: монтаж греющего кабеля в водостоке
+    img: /images/montazh-greyushchego-kabelya-na-krovle-3.webp
     height: '412'
-  - alt: монтаж рекламы
-    img: /images/montazh-bannera-na-stenu-2.webp
+  - alt: греющий кабель на кровле
+    img: /images/montazh-greyushchego-kabelya-na-krovle-4.webp
     height: '324'
-  - alt: монтаж наружной рекламы
-    img: /images/demontazh-v-trudnodostupnom-meste.webp
+  - alt: монтаж греющего кабеля в водосточной трубе
+    img: /images/montazh-greyushchego-kabelya-na-krovle-5.webp
     height: '224'
 our_service:
   title: Монтаж системы обогрева кровли и водостоков
@@ -53,15 +53,8 @@ our_service:
   list_service:
     - title: Монтаж греющего кабеля
       description: Осуществим работы по монтажу греющего кабеля на кровлю! Бригада с опытом работы в Ульяновске больше десяти лет!
-      image: '/images/demontazh-bannera-2.webp'
+      image: '/images/montazh-greyushchego-kabelya-na-krovle.webp'
       link: '#second_form'
-      price_title: Монтаж греющего кабеля - Цена
-      price_volume_1: Объем работ < 30 м.
-      price_volume_2: Объем работ > 30 м.
-      price_1: '900'
-      price_2: '600'
-      price_unit: за метр
-      min_volume_price: 10 000
 ---
 
 ## Сложности в установке греющего кабеля
