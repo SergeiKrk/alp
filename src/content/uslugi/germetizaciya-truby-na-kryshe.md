@@ -4,7 +4,7 @@ description: 'Ремонт печных труб, дымоходов и возд
 descr: 'Выполним гидроизоляцию печных труб, дымоходов и воздуховодов на крыше под ключ.'
 h_one: 'Ремонт и гидроизоляция трубы на крыше'
 pubDate: 'Jul 08 2023'
-heroImage: '/images/montazh-demontazh-naruzhnoj-reklamy.webp'
+heroImage: '/images/germetizaciya-pechnyh-trub.webp'
 categories: ['Кровельные работы']
 tags: ['Герметизация трубы', 'Ремонт воздуховодов', 'Ремонт кровли']
 icon: 'M8.149 16.062h6.06l-.053 3.575l-6.007 5.406v-8.981zm16.758-1.979L1 35.169L3.52 38l21.485-18.954L46.486 38L49 35.169L25.097 14.083L25 14l-.093.083z'
@@ -30,20 +30,20 @@ list_services:
   - name: 'Монтаж снегозадержателей'
     url_id: '/montazh-snegozaderzhatelej'
 banners:
-  - alt: Монтаж рекламной конструкции
-    img: /images/montazh-reklamnoj-konstrukcii.webp
+  - alt: Герметизация трубы на крыше
+    img: /images/germetizaciya-pechnyh-trub-1.webp
     height: '207'
-  - alt: Демонтаж баннера
-    img: /images/demontazh-bannera.webp
+  - alt: Примыкание кровли к трубе
+    img: /images/germetizaciya-pechnyh-trub-2.webp
     height: '353'
-  - alt: демонтаж баннера на стену
-    img: /images/montazh-reklamnoj-konstrukcii-2.webp
+  - alt: Гидроизоляция трубы на крыше
+    img: /images/germetizaciya-pechnyh-trub-3.webp
     height: '412'
-  - alt: монтаж рекламы
-    img: /images/montazh-bannera-na-stenu-2.webp
+  - alt: Выполним гидроизоляцию печных труб
+    img: /images/germetizaciya-pechnyh-trub-4.webp
     height: '324'
-  - alt: монтаж наружной рекламы
-    img: /images/demontazh-v-trudnodostupnom-meste.webp
+  - alt: Ремонт печных труб
+    img: /images/germetizaciya-pechnyh-trub-5.webp
     height: '224'
 our_service:
   title: Примыкание кровли к трубе
@@ -53,7 +53,7 @@ our_service:
       title_id: гидроизоляция-трубы-на-крыше
       description_p: Любая кровельная конструкция включает целый ряд различных элементов, соединенных в сложную конструкцию. Профессиональное исполнение инженерного решения крыши обеспечивает сохранение целостности здания и комфортных условий проживания в нем. Особого внимания и специальной подготовки требует правильное обустройство дымовой трубы в месте ее соединения с кровельным покрытием.
       description_pp: В инженерном узле вокруг прохода печной трубы через кровлю встречается несколько разновидностей строительных материалов. От различного состава кровельного пирога и вида дымовой трубы зависит выбор нужного технического решения для долговечности, надежной герметизации и безопасной эксплуатации конструкций крыши.
-      image: '/images/montazh-reklamnoj-konstrukcii-2.webp'
+      image: '/images/gidroizolyaciya-truby-na-kryshe.webp'
       link: '#second_form'
       price_title: Герметизация трубы на крыше - Цена
       price_1: '10 000'
