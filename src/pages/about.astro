@@ -10,30 +10,42 @@ import promalpinist from '../../public/images/promalpinist.webp';
 <BaseStat meta_title="About">
   <div class="mx-auto mt-32 max-w-screen-lg px-4 py-12 sm:px-6 sm:py-12 lg:px-8">
     <Page title="О нас">
-      <div class="container mx-auto my-12">
-        <p>Привет! Меня зовут Алексей.</p>
-        <p>
-          Я и моя команда занимаемся промышленным альпинизмом уже более 15 лет. Мы любим свою работу и выполняем ее с
-          душей.
-        </p>
-        <p>
-          Мы предоставляем услугу промышленный альпинизм по цене лучшей в регионе. Чтобы воспользоваться выгодным
-          предложением, оставьте заявку на сайте нашей компании или позвоните по указанному контактному телефону в
-          Ульяновске. У нас есть все технические возможности и кадровый ресурс, чтобы максимально эффективно решить
-          поставленную Вами задачу.
-        </p>
+      <div class="mx-auto max-w-6xl" id="демонтаж-кровли">
+        <div class="flex flex-col py-12 md:flex-row">
+          <div class="order-0 grid basis-full content-center p-2 md:basis-1/3">
+            <div class="relative">
+              <Image
+                class="mx-auto max-w-3xl rounded-full object-contain"
+                alt="промальпинист"
+                width={300}
+                height={300}
+                src={promalpinist}
+              />
+            </div>
+          </div><div class="grid basis-full content-center px-4 md:basis-2/3 lg:px-12">
+            <div class="mx-2 md:ml-4">
+              <p><b>Привет! Меня зовут Алексей.</b></p>
+              <p>
+                Я и моя команда занимаемся промышленным альпинизмом уже более 15 лет. Мы любим свою работу и выполняем
+                ее с душей.
+              </p>
+              <p>
+                Мы предоставляем услугу промышленный альпинизм по цене лучшей в регионе. Чтобы воспользоваться выгодным
+                предложением, оставьте заявку на сайте нашей компании или позвоните по указанному контактному телефону в
+                Ульяновске. У нас есть все технические возможности и кадровый ресурс, чтобы максимально эффективно
+                решить поставленную Вами задачу.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+      <div></div>
       <div
         id="second_form"
         class="max-w-full bg-gradient-to-br from-sky-700/10 via-cyan-700/10 to-teal-700/10 py-14 text-center"
       >
-        <Image
-          class="mx-auto max-w-3xl rounded-full object-contain"
-          alt="промальпинист"
-          width={300}
-          height={300}
-          src={promalpinist}
-        />
+        <div class="text-5xl">Остались вопросы?</div>
+        <div class="mb-10 text-2xl">Оставьте заявку и мы Вам перезвоним</div>
         <div class="gradientBg mx-auto max-w-xl rounded-xl p-14 text-center shadow-lg">
           <MyForm form_name="about" id_number="my_form" />
         </div>
