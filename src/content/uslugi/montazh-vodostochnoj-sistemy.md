@@ -19,6 +19,9 @@ list_services:
     url_id: '/pokraska-kryshi-doma'
   - name: 'Монтаж конька'
     url_id: '/montazh-konka'
+  - name: 'Монтаж водосточной системы'
+    url_id: '/montazh-vodostochnoj-sistemy'
+    active: true
   - name: 'Монтаж наплавляемой кровли'
     url_id: '/montazh-naplavlyaemoj-krovli'
   - name: 'Монтаж шиферной кровли'

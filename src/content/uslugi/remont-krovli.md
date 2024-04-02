@@ -11,6 +11,9 @@ icon: 'M8.149 16.062h6.06l-.053 3.575l-6.007 5.406v-8.981zm16.758-1.979L1 35.169
 box: '0 0 50 50'
 min_price: ' от 950 руб. за кв.м.'
 list_services:
+  - name: 'Частичный ремонт кровли'
+    url_id: '/remont-krovli'
+    active: true
   - name: 'Демонтаж кровли'
     url_id: '/demontazh-krovli'
   - name: 'Покраска крыши дома'

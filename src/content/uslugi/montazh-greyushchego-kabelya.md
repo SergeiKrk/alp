@@ -27,6 +27,9 @@ list_services:
     url_id: '/montazh-shifernoj-krovli'
   - name: 'Герметизация трубы на крыше'
     url_id: '/germetizaciya-truby-na-kryshe'
+  - name: 'Монтаж греющего кабеля'
+    url_id: '/montazh-greyushchego-kabelya'
+    active: true
   - name: 'Монтаж снегозадержателей'
     url_id: '/montazh-snegozaderzhatelej'
   - name: '💳 Стоимость монтажа греющего кабеля'

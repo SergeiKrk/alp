@@ -23,6 +23,9 @@ list_services:
     url_id: '/montazh-vodostochnoj-sistemy'
   - name: 'Монтаж наплавляемой кровли'
     url_id: '/montazh-naplavlyaemoj-krovli'
+  - name: 'Монтаж шиферной кровли'
+    url_id: '/montazh-shifernoj-krovli'
+    active: true
   - name: 'Герметизация трубы на крыше'
     url_id: '/germetizaciya-truby-na-kryshe'
   - name: 'Монтаж греющего кабеля'

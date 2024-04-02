@@ -11,6 +11,9 @@ icon: 'M20 2h2v20H2v-8h2v6h4v-4h2v4h4v-6h2v6h4V4H10v2H8V2h12zm-8 10h2v2h-2v-2zm-
 box: '0 0 24 24'
 min_price: ' от 10 000 руб.'
 list_services:
+  - name: 'Фасадные работы'
+    url_id: '/fasadnye-raboty'
+    active: true
   - name: 'Гидрофобизация фасада'
     url_id: '/gidrofobizaciya-fasada'
   - name: 'Монтаж фасадной сетки'

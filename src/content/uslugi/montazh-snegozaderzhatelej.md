@@ -29,6 +29,9 @@ list_services:
     url_id: '/germetizaciya-truby-na-kryshe'
   - name: 'Монтаж греющего кабеля'
     url_id: '/montazh-greyushchego-kabelya'
+  - name: 'Монтаж снегозадержателей'
+    url_id: '/montazh-snegozaderzhatelej'
+    active: true
   - name: '💳 Стоимость монтажа снегозадержателей'
     url_id: '#стоимость-монтажа-снегозадержателей'
 banners:

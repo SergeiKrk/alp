@@ -15,6 +15,9 @@ list_services:
     url_id: '/remont-krovli'
   - name: 'Демонтаж кровли'
     url_id: '/demontazh-krovli'
+  - name: 'Покраска крыши дома'
+    url_id: '/pokraska-kryshi-doma'
+    active: true
   - name: 'Монтаж конька'
     url_id: '/montazh-konka'
   - name: 'Монтаж водосточной системы'

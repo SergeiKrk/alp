@@ -13,6 +13,9 @@ min_price: ' от 250 руб. за кв.м.'
 list_services:
   - name: 'Частичный ремонт кровли'
     url_id: '/remont-krovli'
+  - name: 'Демонтаж кровли'
+    url_id: '/demontazh-krovli'
+    active: true
   - name: 'Покраска крыши дома'
     url_id: '/pokraska-kryshi-doma'
   - name: 'Монтаж конька'

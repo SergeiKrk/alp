@@ -21,6 +21,9 @@ list_services:
     url_id: '/montazh-konka'
   - name: 'Монтаж водосточной системы'
     url_id: '/montazh-vodostochnoj-sistemy'
+  - name: 'Монтаж наплавляемой кровли'
+    url_id: '/montazh-naplavlyaemoj-krovli'
+    active: true
   - name: 'Монтаж шиферной кровли'
     url_id: '/montazh-shifernoj-krovli'
   - name: 'Герметизация трубы на крыше'
