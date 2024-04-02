@@ -2,6 +2,10 @@
   "main": [
     {
       "name": "Услуги",
+      "url": "/uslugi"
+    },
+    {
+      "name": "Виды услуг",
       "url": "",
       "hasChildren": true,
       "children": [
@@ -21,6 +25,10 @@
           "name": "Высотная мойка фасадов и окон",
           "url": "/myte-fasadov-i-okon"
         },
+        {
+          "name": "Уборка снега с крыш",
+          "url": "/ochistka-krysh-ot-snega"
+        },
 
         {
           "name": "Фасадные работы",
@@ -28,68 +36,13 @@
         },
 
         {
-          "name": "Отделка монолитных поясов",
-          "url": "/otdelka-monolitnyh-poyasov"
-        },
-
-        {
-          "name": "Покраска фасада",
-          "url": "/pokraska-fasada"
-        },
-
-        {
-          "name": "Штукатурка фасада",
-          "url": "/shtukaturka-fasada"
-        },
-
-        {
-          "name": "Пескоструйная очистка",
-          "url": "/peskostrujnaya-ochistka-fasada"
-        },
-
-        {
-          "name": "Монтаж фасадной сетки",
-          "url": "/montazh-fasadnoj-setki"
-        },
-
-        {
-          "name": "Гидрофобизация фасадов",
-          "url": "/gidrofobizaciya-fasada"
-        },
-
-        {
-          "name": "Ремонт кровли",
+          "name": "Кровельные работы",
           "url": "/remont-krovli"
-        },
-
-        {
-          "name": "Демонтаж кровли",
-          "url": "/demontazh-krovli"
-        },
-
-        {
-          "name": "Покраска крыши",
-          "url": "/pokraska-kryshi-doma"
-        },
-
-        {
-          "name": "Монтаж конька",
-          "url": "/montazh-konka"
         },
 
         {
           "name": "Монтаж водосточной системы",
           "url": "/montazh-vodostochnoj-sistemy"
-        },
-
-        {
-          "name": "Монтаж наплавляемой кровли",
-          "url": "/montazh-naplavlyaemoj-krovli"
-        },
-
-        {
-          "name": "Монтаж шиферной кровли",
-          "url": "/montazh-shifernoj-krovli"
         },
 
         {
@@ -105,16 +58,6 @@
         {
           "name": "Пескоструйная очистка металла",
           "url": "/peskostrujnaya-ochistka-metalla"
-        },
-
-        {
-          "name": "Огнезащитная обработка",
-          "url": "/ognezashchita-metalla"
-        },
-
-        {
-          "name": "Покраска металлоконструкций",
-          "url": "/pokraska-metallokonstrukcij"
         },
 
         {

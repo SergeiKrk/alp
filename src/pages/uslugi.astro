@@ -1,0 +1,16 @@
+---
+import Base from '@layouts/Base.astro';
+import { getEntryBySlug } from 'astro:content';
+import Services from '@components/Services.astro';
+import Intro from '@components/Intro.astro';
+
+const uslugi_all = await getEntryBySlug('uslugi_all', 'index');
+const { intro, services } = uslugi_all.data;
+---
+
+<Base>
+  <div class="px-4 py-32 md:px-8">
+    <Intro {intro} />
+    <Services {services} />
+  </div>
+</Base>

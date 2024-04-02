@@ -17,7 +17,6 @@ banner:
   image: /images/sanepidemstanciya.webp
   button:
     label: Заказать звонок
-    link: 'https://themefisher.com/astro-themes/pinwheel-astro'
     enable: true
 
 services:
