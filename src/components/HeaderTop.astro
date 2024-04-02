@@ -105,10 +105,10 @@ const { pathname } = Astro.url;
                       </svg>
                     </button>
                     <DropdownItems class="relative">
-                      <div class="top-2 mt-4 w-full rounded-xl bg-[#EDF7F3] p-4 lg:absolute lg:w-[300px] lg:bg-white">
+                      <div class="top-2 mt-4 w-full rounded-xl bg-[#EDF7F3] p-4 dark:bg-gray-800 lg:absolute lg:w-[300px] lg:bg-white">
                         <ul class="nav-item nav-dropdown group relative w-full cursor-pointer lg:px-2">
                           {menu.children?.map((child) => (
-                            <li class="my-1 border-l-4 p-1 leading-3 hover:bg-slate-200 hover:text-teal-500">
+                            <li class="my-1 border-l-4 p-1 leading-3 hover:text-teal-500 dark:border-l-0 dark:hover:bg-slate-700">
                               <a
                                 class="text-xs font-bold text-cyan-700/100 dark:text-white/100 md:mr-4"
                                 href={child.url}
