@@ -1,20 +1,151 @@
 {
   "main": [
     {
-      "name": "Home",
-      "url": "/"
+      "name": "Услуги",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Ремонт межпанельных швов",
+          "url": "/remont-shvov"
+        },
+        {
+          "name": "Утепление стен снаружи",
+          "url": "/uteplenie-fasada"
+        },
+        {
+          "name": "Герметизация балконов и окон",
+          "url": "/germetizaciya-balkonov"
+        },
+        {
+          "name": "Высотная мойка фасадов и окон",
+          "url": "/myte-fasadov-i-okon"
+        },
+
+        {
+          "name": "Фасадные работы",
+          "url": "/fasadnye-raboty"
+        },
+
+        {
+          "name": "Отделка монолитных поясов",
+          "url": "/otdelka-monolitnyh-poyasov"
+        },
+
+        {
+          "name": "Покраска фасада",
+          "url": "/pokraska-fasada"
+        },
+
+        {
+          "name": "Штукатурка фасада",
+          "url": "/shtukaturka-fasada"
+        },
+
+        {
+          "name": "Пескоструйная очистка",
+          "url": "/peskostrujnaya-ochistka-fasada"
+        },
+
+        {
+          "name": "Монтаж фасадной сетки",
+          "url": "/montazh-fasadnoj-setki"
+        },
+
+        {
+          "name": "Гидрофобизация фасадов",
+          "url": "/gidrofobizaciya-fasada"
+        },
+
+        {
+          "name": "Ремонт кровли",
+          "url": "/remont-krovli"
+        },
+
+        {
+          "name": "Демонтаж кровли",
+          "url": "/demontazh-krovli"
+        },
+
+        {
+          "name": "Покраска крыши",
+          "url": "/pokraska-kryshi-doma"
+        },
+
+        {
+          "name": "Монтаж конька",
+          "url": "/montazh-konka"
+        },
+
+        {
+          "name": "Монтаж водосточной системы",
+          "url": "/montazh-vodostochnoj-sistemy"
+        },
+
+        {
+          "name": "Монтаж наплавляемой кровли",
+          "url": "/montazh-naplavlyaemoj-krovli"
+        },
+
+        {
+          "name": "Монтаж шиферной кровли",
+          "url": "/montazh-shifernoj-krovli"
+        },
+
+        {
+          "name": "Гидроизоляция трубы на крыше",
+          "url": "/germetizaciya-truby-na-kryshe"
+        },
+
+        {
+          "name": "Покраска металлоконструкций",
+          "url": "/pokraska-metallokonstrukcij"
+        },
+
+        {
+          "name": "Пескоструйная очистка металла",
+          "url": "/peskostrujnaya-ochistka-metalla"
+        },
+
+        {
+          "name": "Огнезащитная обработка",
+          "url": "/ognezashchita-metalla"
+        },
+
+        {
+          "name": "Покраска металлоконструкций",
+          "url": "/pokraska-metallokonstrukcij"
+        },
+
+        {
+          "name": "Монтаж снегозадержателей",
+          "url": "/montazh-snegozaderzhatelej"
+        },
+
+        {
+          "name": "Монтаж греющего кабеля",
+          "url": "/montazh-greyushchego-kabelya"
+        },
+
+        {
+          "name": "Монтаж наружной рекламы",
+          "url": "/montazh-demontazh-naruzhnoj-reklamy"
+        },
+
+        {
+          "name": "Обслуживание элеваторов",
+          "url": "/obsluzhivanie-ehlevatorov"
+        },
+
+        {
+          "name": "Монтажные работы",
+          "url": "/montazhnye-raboty"
+        }
+      ]
     },
     {
-      "name": "About",
+      "name": "О нас",
       "url": "/about"
-    },
-    {
-      "name": "Tags",
-      "url": "/tags"
-    },
-    {
-      "name": "Categories",
-      "url": "/categories"
     }
   ]
 }

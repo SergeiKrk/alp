@@ -2091,6 +2091,11 @@ astro-md-generator@1.0.0:
   resolved "https://registry.yarnpkg.com/astro-md-generator/-/astro-md-generator-1.0.0.tgz#3fbcba0a5798fba58c00f5ab0246dd7831fcf57f"
   integrity sha512-fmg6VGY8KZnhYzaRNi6o3fn/0+Eu4kd0dLENSw6U/hHpukeopGk9ch5AfeM51J2DgyYZc6r8GQAxxWFlCQgaaw==
 
+astro-navbar@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/astro-navbar/-/astro-navbar-2.3.1.tgz#c035d6c1ada1b3f2079f1b3868e5ca5e3135102b"
+  integrity sha512-lLvhWS03Qc3heMU23adFwEnBUJFlL6gxYi0xPvIyX1atb2oCov4kOS/MaWOPGnvj2nK63szebUzlG+NdIoUZzQ==
+
 astro-robots-txt@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/astro-robots-txt/-/astro-robots-txt-1.0.0.tgz#d5e47c03e7b3d6b070d75eb470dd3661fa19fe96"

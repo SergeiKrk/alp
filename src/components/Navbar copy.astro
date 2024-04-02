@@ -1,0 +1,71 @@
+---
+import Dropdown from './Dropdown.astro';
+import { Astronav, MenuItems, MenuIcon } from 'astro-navbar';
+
+const menuitems = [
+  {
+    title: 'Features',
+    url: '#',
+    children: [
+      { title: 'Action', url: '/' },
+      { title: 'Another action', url: '#' },
+      { title: 'Dropdown Submenu', url: '#' },
+      { title: '404 Page', url: '/404' },
+    ],
+  },
+  {
+    title: 'Pricing',
+    url: '/pricing',
+  },
+  {
+    title: 'About',
+    url: '/about',
+  },
+];
+---
+
+<header class="my-5 flex flex-col items-center justify-between lg:flex-row">
+  <Astronav>
+    <div class="flex w-full items-center justify-between lg:w-auto">
+      <a href="/" class="text-lg"
+        ><span class="font-bold text-slate-800">Astro</span><span class="text-slate-500">ship</span>
+      </a>
+      <div class="block lg:hidden">
+        <MenuIcon class="h-4 w-4 text-gray-800" />
+      </div>
+    </div>
+    <MenuItems class="mt-2 hidden w-full lg:mt-0 lg:flex lg:w-auto">
+      <ul class="flex flex-col lg:flex-row lg:gap-3">
+        {
+          menuitems.map((item, index) => (
+            <>
+              {item.children && (
+                <Dropdown title={item.title} children={item.children} lastItem={index === menuitems.length - 1} />
+              )}
+
+              {!item.children && (
+                <li>
+                  <a href={item.url} class="flex items-center py-2 text-gray-600 hover:text-gray-900 lg:px-3">
+                    <span> {item.title}</span>
+                    {item.badge && (
+                      <span class="ml-1 animate-pulse rounded-full bg-indigo-600 px-2 py-0.5 text-[10px] font-semibold uppercase text-white">
+                        New
+                      </span>
+                    )}
+                  </a>
+                </li>
+              )}
+            </>
+          ))
+        }
+      </ul>
+      <div class="mt-3 flex items-center gap-4 lg:hidden">Log in</div>
+    </MenuItems>
+  </Astronav>
+  <div>
+    <div class="hidden items-center gap-4 lg:flex">
+      <a href="#">Log in</a>
+       Sign up
+    </div>
+  </div>
+</header>
