@@ -13,6 +13,9 @@ min_price: ' от 1 000 руб. за кв.м.'
 list_services:
   - name: 'Покраска металлоконструкций'
     url_id: '/pokraska-metallokonstrukcij'
+  - name: 'Пескоструйная очистка металла'
+    url_id: '/peskostrujnaya-ochistka-metalla'
+    active: true
   - name: 'Огнезащита металла'
     url_id: '/ognezashchita-metalla'
   - name: '💳 Стоимость пескоструйной очистки металла'

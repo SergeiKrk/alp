@@ -15,6 +15,9 @@ list_services:
     url_id: '/pokraska-metallokonstrukcij'
   - name: 'Пескоструйная очистка металла'
     url_id: '/peskostrujnaya-ochistka-metalla'
+  - name: 'Огнезащита металла'
+    url_id: '/ognezashchita-metalla'
+    active: true
   - name: '💳 Стоимость огнезащитной обработки'
     url_id: '#цена'
 banners:

@@ -11,6 +11,9 @@ icon: 'M4 2.997h16a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-
 box: '0 0 24 24'
 min_price: ' от 180 руб. за кв.м.'
 list_services:
+  - name: 'Покраска металлоконструкций'
+    url_id: '/pokraska-metallokonstrukcij'
+    active: true
   - name: 'Пескоструйная очистка металла'
     url_id: '/peskostrujnaya-ochistka-metalla'
   - name: 'Огнезащита металла'
