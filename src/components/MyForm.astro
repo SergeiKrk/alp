@@ -17,6 +17,7 @@ const { form_name, id_number } = Astro.props;
         name="Имя"
         type="text"
         id={'hero-name-' + id_number}
+        required
         name="hero-name"
         class="focus:border-primary focus:ring-primary block w-full rounded-lg border-gray-200 px-4 py-3 font-semibold shadow-sm focus:z-10 xl:min-w-[10rem]"
         placeholder="Ваше имя"
@@ -28,6 +29,7 @@ const { form_name, id_number } = Astro.props;
         name="Телефон"
         type="number"
         id={'hero-phone-' + id_number}
+        required
         name="hero-phone"
         class="focus:border-primary focus:ring-primary block w-full rounded-lg border-gray-200 px-4 py-3 font-semibold shadow-sm focus:z-10 xl:min-w-[10rem]"
         placeholder="Телефон"
